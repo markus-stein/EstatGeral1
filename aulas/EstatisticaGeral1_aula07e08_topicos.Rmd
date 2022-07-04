@@ -30,14 +30,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Agora, nosso interesse será analisar o relacionamento entre **duas variáveis numéricas** de interesse.
 
-<!-- * **Exemplo 1**: O Índice de Desenvolvimento Humano (IDH) em países pode estar associado à carga tributária?   -->
-<!-- ![](IDH1.png){ width=60% }   -->
+* **Exemplo 1**: O Índice de Desenvolvimento Humano (IDH) em países pode estar associado à carga tributária?
+![](IDH1.png){ width=60% }
 
-<!-- Artigo de 2012: https://carodinheiro.blogfolha.uol.com.br/2012/12/14/pagamento-de-impostos-no-brasil-e-um-investimento-sem-retorno/ -->
+Artigo de 2012: https://carodinheiro.blogfolha.uol.com.br/2012/12/14/pagamento-de-impostos-no-brasil-e-um-investimento-sem-retorno/
 
-<!-- \vspace{0.5cm} -->
+\vspace{0.5cm}
 
-* **Exemplo 1**: O valor do auxílio estudantil oferecido por uma universidade pode estar relacionado com a renda familiar dos estudantes?
+* **Exemplo 2**: O valor do auxílio estudantil oferecido por uma universidade pode estar relacionado com a renda familiar dos estudantes?
 
 ```{r college_aid, message=FALSE, echo=FALSE, warning=FALSE, fig.width=3, fig.height=2, fig.align='center'}
 library(ggplot2)
