@@ -1,0 +1,219 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Modelo com instru\c{c}\~{o}es para prepara\c{c}\~{a}o de trabalho para a 55a. RBRAS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt]{article}%
+\usepackage[latin1]{inputenc}%
+\usepackage[brazil]{babel}%
+\usepackage{epsfig}%
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{mathrsfs}%
+\usepackage{amssymb}%
+\usepackage{graphicx}%
+\usepackage{longtable}%
+\usepackage{geometry, calc, color, setspace}%
+\usepackage{indentfirst}%
+\usepackage{wrapfig}%
+%\usepackage{cite}
+\usepackage[round,authoryear]{natbib}
+%\usepackage[colorlinks=true]{hyperref}%
+\usepackage{lscape}
+
+\def\us{\char`\_}
+
+%\pagestyle{empty}
+
+\geometry{a4paper, headsep=1.0cm, footskip=1cm, lmargin=2.5cm, rmargin=2.5cm,
+         tmargin=2.5cm, bmargin=2.5cm, headheight=2.5cm}
+
+\renewcommand{\baselinestretch}{1.2}  % Espa\c{c}o entre linhas
+\def\Var{{\rm Var}\,}
+\def\E{{\rm E}\,}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%             In\'{\i}cio do documento
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+{\bf 
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
+INSTITUTO DE MATEMÁTICA E ESTATÍSTICA\\
+DEPARTAMENTO DE ESTATÍSTICA\\
+MAT02219 - PROBABILIDADE E ESTATÍSTICA}\\
+\vspace*{0.1cm}{\bf ÁREA 1}
+\end{center}
+\pagenumbering{arabic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace*{0.1cm}
+%\begin{center}
+%{\bf INSTRUÇÕES}
+%\end{center}
+%
+%\begin{itemize}%\setlength{\itemsep}{+1mm}
+%\item A prova é individual.
+%\item A prova é sem consulta, \textbf{com exceção} do formulário que se encontra a seguir.
+%\item Você pode utilizar uma calculadora para realizar as questões.
+%\begin{itemize}
+%\item No caso de uma divisão, você pode deixar o resultado na forma de frações.
+%\end{itemize}
+%\item Leia com atenção todas as questões antes de resolvê-las.
+%\item As questões podem ser realizadas na ordem de sua preferência.
+%\item O desenvolvimento das questões será considerado. Portanto, escreva de maneira legível o seu raciocínio, esclarecendo suas suposições para a solução das questões. Não esqueça de indicar claramente o número da questão que você está respondendo.
+%\item Coloque o seu nome e número de cartão nas folhas de resolução.
+%\item A prova começará as 16 hs 30 min e tem duração de uma hora e quarenta minutos.
+%\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{center}
+%{\bf 
+%UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
+%INSTITUTO DE MATEMÁTICA E ESTATÍSTICA\\
+%DEPARTAMENTO DE ESTATÍSTICA\\
+%MAT02219 - PROBABILIDADE E ESTATÍSTICA}\\
+%\vspace*{0.5cm}
+%{\bf PROVA 2 - 2017/2}
+%\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace*{0.5cm}
+\begin{center}
+{\bf FORMULÁRIO}
+\end{center}
+
+
+\textbf{Tabela de Frequências}
+
+\begin{itemize}%\setlength{\itemsep}{+1mm}
+\item \textbf{Frequências absolutas e relativas:} seja $F_j$ a frequência absoluta do valor/classe $j$ e $n$ o total de elementos do conjunto de dados. A frequência relativa é dada por $f_j = F_j/n$.
+\item \textbf{Número de classes (k):} $k = \sqrt{n}$ (regra empírica); $k = 1 + 3,32 \log{(n)}$, em que $k$ é número de classes e $n$ o número de observações. Ainda, $i = a_t/k$, em que $i$ é a amplitude do intervalo, $a_t = x_{(n)} - x_{(1)}$ é a amplitude total, e $x_{(1)}, x_{(n)}$ são os extremos inferior e superior do conjunto de dados.
+\end{itemize}
+
+\textbf{Gráficos}
+
+\begin{itemize}
+\item \textbf{Histograma:} a densidade de frequência é dada pela razão entre a frequência relativa da classe e a base (comprimento do intervalo) da classe.
+\end{itemize}
+
+\textbf{Medidas Descritivas}
+
+\emph{Medidas de localização}
+
+\begin{itemize}
+\item \textbf{A média amostral (aritmética simples)} é dada por $\bar{x} = \frac{1}{n}\sum_{i=1}^n{x_i} = \frac{x_1 + x_2 + \ldots + x_n}{n}$.
+\item Suponha que para os dados $x_1, x_2, \ldots, x_n$ possuem os seguintes pesos $p_1, p_2, \ldots, p_n$, então \textbf{a média aritmética ponderada} é dada por $\bar{x}_p = \frac{\sum_{i=1}^n{x_ip_i}}{\sum_{i=1}^n{p_i}}$.
+\begin{itemize}
+%\item Para dados em grupamentos simples, calcula-se a média do seguinte modo 
+%$$
+%\bar{x} = \frac{\sum_{i=1}{n_ix_i}}{\sum_{i=1}{n_i}} = \sum_{i=1}{x_i\frac{n_i}{\sum_{i=1}{n_i}}} = \sum_{i=1}{x_i\frac{n_i}{n}} = \sum_{i=1}{x_if_i}.
+%$$
+\item A média aritmética para dados \textbf{agrupados por intervalo de classe} é dada por $\bar{x} = \frac{\sum_{j}{c_jF_j}}{n}$ em que, $c_j$ é o ponto médio do intervalo de classe. 
+\end{itemize}
+\item A posição da mediana é dada por $p = \frac{n+1}{2}$. A \textbf{mediana} é dada por $Md = x_{(p)}$, quando $n$ é par, e $Md = [x_{(p_1)} + x_{(p_1)}]/2$, quando $n$ é ímpar. As posições dos \textbf{quartis} são dadas por $p_1 = \frac{n+1}{4}; p_2 = \frac{2(n+1)}{4}; p_3 = \frac{3(n+1)}{4}$, se $n$ é ímpar, e $p_1 = \frac{n+2}{4}; p_2 = \frac{2n+2}{4}; p_3 = \frac{3n+2}{4}$. Os quartis são dados por $Q_i = x_{(p_i)}$. Se $p_i$ não for um número inteiro, então $Q_i = (x_{(\lceil p_i\rceil)} + x_{(\lfloor p_i\rfloor)})/2$, em que $\lceil p_i\rceil, \lfloor p_i\rfloor$ são o menor e o maior inteiro de $p_i$.
+\end{itemize}
+
+\emph{Medidas de variação ou dispersão}
+
+\begin{itemize}
+\item A \textbf{amplitude total} é $a_t = x_{(n)} - x_{(1)}$, em que $x_{(1)}, x_{(n)}$ são os extremos inferior e superior do conjunto de dados.
+\item A \textbf{variância amostral} é dada por $s^2 = \frac{\sum_{i=1}^n{(x_i - \bar{x})^2}}{n - 1} = \frac{\sum_{i=1}^n{x_i^2} - n\bar{x}^2}{n - 1}$.
+\begin{itemize}
+\item A variância amostral para dados \textbf{agrupados por intervalo de classe} é dada por $s^2 = \frac{\sum_{j}{F_j(c_j - \bar{x})^2}}{n-1}$ em que, $c_j$ é o ponto médio do intervalo de classe.
+%\item Fórmulas alternativas da variância:
+%\begin{itemize}
+%\item Dados não agrupados: 
+%$$
+%s^2 = \frac{\sum_{i=1}^n{x_i^2} - \frac{\left(\sum_{i=1}^n{x_i}\right)^2}{n}}{n - 1}.
+%$$
+%\item Dados simplesmente agrupados 
+%$$
+%s^2 = \frac{\sum_{i=1}{n_ix_i^2} - \frac{\left(\sum_{i=1}{n_ix_i}\right)^2}{\sum_{i=1}{n_i}}}{\sum_{i=1}{n_i} - 1}.
+%$$
+%\end{itemize}
+\end{itemize}
+\item O \textbf{desvio padrão amostral} é igual a raiz quadrada da variância amostral: $s = \sqrt{s^2}$.
+\item O \textbf{coeficiente de varição} é $CV = s/\bar{x}$.
+\end{itemize}
+
+\clearpage
+
+\emph{Medidas de formato}
+
+\begin{itemize}
+\item O \textbf{coeficiente de assimetria} é $a_3=m_3/(m_2\sqrt{m_2})$, em que $m_2 = \sum_{i=1}^n{(x_i - \bar{x})^2}/n$ e $m_3 = \sum_{i=1}^n{(x_i - \bar{x})^3}/n$.
+\item O \textbf{coeficiente de curtose} é $a_4=m_4/(m_2)^2$, em que $m_2 = \sum_{i=1}^n{(x_i - \bar{x})^2}/n$ e $m_4 = \sum_{i=1}^n{(x_i - \bar{x})^4}/n$.
+\end{itemize}
+
+
+\textbf{Medidas de associação}
+
+\begin{itemize}
+\item A covariância amostral entre $X$ e $Y$ é dado por $\displaystyle{cov(X,Y) = \frac{(x_i - \overline x) (y_i - \overline y)}{n}}$, em que 
+
+e
+
+\item O coeficiente de correlação linear amostral entre $X$ e $Y$ é dado por $\displaystyle{r = \frac{S_{XY}}{\sqrt{S_{XX}S_{YY}}}}$, em que 
+$$
+S_{XX} = \sum_i{x_i^2} - (\sum_i{x_i})^2/n, \qquad S_{YY} = \sum_i{y_i^2} - (\sum_i{y_i})^2/n \qquad \mbox{ e } \quad  S_{XY} = \sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n.
+$$
+
+ou
+
+$$
+\displaystyle{r = \frac{cov(X, Y)}{\sqrt{S_{XX}S_{YY}}}}
+$$
+\end{itemize}
+
+% \textbf{Probabilidades}
+% 
+% \emph{Técnicas de contagem}
+% 
+% \begin{itemize}%\setlength{\itemsep}{+1mm}
+% \item \textbf{Permutações:} ${\rm P}_n = n!$.
+% \item \textbf{Arranjos:} ${\rm A}_n^x = \frac{n!}{(n-x)!}$.
+% \item \textbf{Combinações:} ${\rm C}_n^x = \frac{n!}{x!(n-x)!}$.
+% \end{itemize}
+% 
+% \begin{figure}[!ht]
+% \centering
+% \includegraphics[width=0.8\columnwidth]{eventos_relacoes.png}
+% \caption{Operações entre eventos aleatórios.}
+% \end{figure}
+% 
+% \emph{Relações entre eventos}
+% 
+% \begin{itemize}%\setlength{\itemsep}{+1mm}
+% \item Sejam $A$ e $B$ dois eventos em um espaço amostral $\Omega$. Valem as seguintes relações entre conjuntos:% (De Morgan):
+% $$
+% \overline{(A\cup B)} = \overline{A} \cap \overline{B}\quad \mbox{e}\quad \overline{(A\cap B)} = \overline{A} \cup \overline{B}.
+% $$
+% \end{itemize}
+% 
+% \emph{Cálculo de probabilidades}
+% 
+% \begin{itemize}
+% \item Regra da adição de probabilidades: sejam $A$ e $B$ eventos em $\Omega$, então $\Pr(A\cup B) = \Pr(A) + \Pr(B) - \Pr(A\cap B)$.
+% \item Sejam $A$ e $B$ dois eventos em um espaço amostral $\Omega$. A probabilidade condicional de $B$ dado que o evento $A$ ocorreu é definida como $\Pr(B|A) = \frac{\Pr(A \cap B)}{\Pr(A)},\ \mbox{desde que}\ \Pr(A) > 0$.
+% \begin{itemize}
+% \item Regra da multiplicação: $\Pr(A \cap B) = \Pr(B|A)\Pr(A)$.
+% \item Regra da probabilidade total: consideremos $A$ um evento qualquer referente a $\Omega$, e $B_1, B_2, \ldots, B_k$ uma partição de $\Omega$, então $\Pr(A) = \Pr(A|B_1)\Pr(B_1) + \Pr(A|B_2)\Pr(B_2) + \ldots + \Pr(A|B_k)\Pr(B_k)$.
+% \item Teorema de Bayes: seja $B_1, B_2, \ldots, B_k$ uma partição do espaço amostral $\Omega$ e seja $A$ um evento associado a $\Omega$, poderemos escrever
+% $$
+% \Pr(B_i|A) = \frac{\Pr(A|B_i)\Pr(B_i)}{\Pr(A|B_1)\Pr(B_1) + \Pr(A|B_2)\Pr(B_2) + \ldots + \Pr(A|B_k)\Pr(B_k)}, i = 1, 2, \ldots, k.
+% $$
+% \end{itemize}
+% \end{itemize}
+% 
+% %\begin{figure}[ht]
+% %\centering
+% %\includegraphics[width=0.25\columnwidth]{keep-calm-and-boa-prova-40.png}
+% %\end{figure}
+
+
+\end{document}
