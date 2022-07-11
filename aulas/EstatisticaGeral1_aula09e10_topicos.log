@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.9)  11 JUL 2022 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.9)  11 JUL 2022 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -465,19 +465,19 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 94
 (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 155.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 157.
 (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 <logoIME.png, id=4, 521.95pt x 226.8475pt>
 File: logoIME.png Graphic file (type png)
 <use logoIME.png>
-Package pdftex.def Info: logoIME.png  used on input line 164.
+Package pdftex.def Info: logoIME.png  used on input line 166.
 (pdftex.def)             Requested size: 98.19987pt x 42.67917pt.
 <images.jpg, id=5, 198.14024pt x 92.14426pt>
 File: images.jpg Graphic file (type jpg)
 <use images.jpg>
-Package pdftex.def Info: images.jpg  used on input line 164.
+Package pdftex.def Info: images.jpg  used on input line 166.
 (pdftex.def)             Requested size: 91.77446pt x 42.6793pt.
 
 Package fancyhdr Warning: \headheight is too small (40.45274pt): 
