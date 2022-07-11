@@ -25,8 +25,13 @@ MAT02214 - Estatística Geral 1 - 2022/1
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Essa semana...
 
-# Avaliação Parcial de Área 1
+# Avaliação Pontual 2 de Área 1
+
+Para semana que vem...
+
+# Prova 1
 
 Relembrar:
 
@@ -42,7 +47,7 @@ Relembrar:
     + análise exploratória, boxplot.
 
 * Correlação Linear 
-    +Correlação espúria, causalidade e correlação
+    + Correlação espúria, causalidade e correlação
 
 \vspace{0.5cm}
 
@@ -58,15 +63,17 @@ Usar o **formulário** para resolução das questões.
 ## Fazer a avaliação pontual 2 da área 1 - VALE NOTA!!!
 ***  
 
-\vspace{1.0cm}
+\vspace{0.5cm}
 
-O que importa na  prática?!
+O que importa na prática?!
 
-* Como construir estatísticas descritiva?
+* Usar software para construir estatísticas descritiva:
 
     + Usando planilhas eletrônicas, `Google Sheets`, ou `Microsoft Excel`, ...
     
     + Usando `R` e `RStudio`
+
+Como baixar e iniciar o `R`? Arquivo em [MAT02219EAD/R-exams/TutorialR.html](https://htmlpreview.github.io/?https://github.com/markus-stein/MAT02219EAD/blob/master/R-exams/TutorialR.html)
 
 * Interpretar adequadamente os resultados!
 
