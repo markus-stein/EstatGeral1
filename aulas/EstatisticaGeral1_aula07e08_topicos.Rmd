@@ -112,12 +112,27 @@ Definição (**covariância**): Sejam $X$ e $Y$ duas v.a. então $Cov(X,Y) = E \
 \vspace{0.2cm}
 
 Definição (**covariância amostral**): Dados $n$ pares de valores observados $(x_1, y_1), \ldots, (x_n, y_n)$ (de duas v.a. $X$ e $Y$), chamaremos de covariância amostral antre X e Y a expressão
-$$cov(X,Y) = \frac{ \sum_{i=1}^n (x_i - \overline x) (y_i - \overline y)}{n}$$. 
+$$cov(X,Y) = \frac{s_{xy}}{n},$$ 
 
-Assim, "padronizamos" a covariância para obtemos o coeficiente $corr(X,Y) = \frac{ cov(X,Y) }{s_x \cdot s_y}$, $-1 \leq corr(X,Y) \geq 1$.  
+em que $s_{xy} = \sum_i (x_i - \overline x) (y_i - \overline y) = \sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n$.
 
-Definição (**coeficiente de correlação**): Dados $n$ pares de valores observados $(x_1, y_1), \ldots, (x_n, y_n)$ (de duas v.a. $X$ e $Y$), chamaremos de covariância amostral antre X e Y a expressão
-$$corr(X,Y) = \frac{ 1 }{ n } \sum_{i=1}^n \frac{ (x_i - \overline x)}{s_x} \cdot \frac{ (y_i - \overline y)}{s_y}.$$  
+Assim, "padronizamos" a covariância para obtemos o coeficiente $corr(X,Y) \approx \frac{ cov(X,Y) }{s_x \cdot s_y}$, em que $s_x$ e $s_y$ são os desvios padrões de $X$ e $Y$ respectivamente, então $-1 \leq corr(X,Y) \leq 1$.  
+
+Definição (**coeficiente de correlação**): Dados $n$ pares de valores observados $(x_1, y_1), \ldots, (x_n, y_n)$ (de duas v.a. $X$ e $Y$), chamaremos de covariância amostral entre $X$ e $Y$ a expressão
+
+$$r = corr(X,Y) = \frac{s_{xy}}{\sqrt{s_{xx}s_{yy}}},$$ 
+
+em que 
+
+* $s_{xx} = \sum_i (x_i - \overline x)^2 = \sum_i{x_i^2} - (\sum_i{x_i})^2/n$, 
+* $s_{yy} = \sum_i (y_i - \overline y)^2 = \sum_i{y_i^2} - (\sum_i{y_i})^2/n$ e 
+* $s_{xy} = \sum_i (x_i - \overline x)(y_i - \overline y) = \sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n;$
+
+ou
+
+$$
+\displaystyle{r = corr(X, Y) = \frac{cov(X, Y)}{\sqrt{ \frac{s_{xx}}{n}\frac{s_{yy}}{n}}}}.
+$$
 
 
 

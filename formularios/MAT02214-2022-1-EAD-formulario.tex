@@ -154,19 +154,22 @@ MAT02214 - Estatística Geral 1}\\
 \textbf{Medidas de associação}
 
 \begin{itemize}
-\item A covariância amostral entre $X$ e $Y$ é dado por $\displaystyle{cov(X,Y) = \sum_i \frac{(x_i - \overline x) (y_i - \overline y)}{n}}$, em que 
+\item A \textbf{covariância} amostral entre $X$ e $Y$ é dado por $\displaystyle{cov(X,Y) = \frac{s_{xy}}{n}}$, em que 
 
-e
+$s_{xy} = \sum_i (x_i - \overline x) (y_i - \overline y) = \sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n$.
 
-\item O coeficiente de correlação linear amostral entre $X$ e $Y$ é dado por $\displaystyle{r = \frac{S_{XY}}{\sqrt{S_{XX}S_{YY}}}}$, em que 
-$$
-S_{XX} = \sum_i{x_i^2} - (\sum_i{x_i})^2/n, \qquad S_{YY} = \sum_i{y_i^2} - (\sum_i{y_i})^2/n \qquad \mbox{ e } \quad  S_{XY} = \sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n.
-$$
+\item O \textbf{coeficiente de correlação} linear amostral entre $X$ e $Y$ é dado por $\displaystyle{r = corr(X,Y) = \frac{s_{xy}}{\sqrt{s_{xx}s_{yy}}}}$, em que 
+
+  \begin{itemize}
+    \item $s_{xx} = \sum_i (x_i - \overline x)^2 = \sum_i{x_i^2} - (\sum_i{x_i})^2/n$, 
+    \item $s_{yy} = \sum_i (y_i - \overline y)^2 = \sum_i{y_i^2} - (\sum_i{y_i})^2/n$ e 
+    \item $s_{xy} = \sum_i (x_i - \overline x)(y_i - \overline y) = \sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n;$
+  \end{itemize}
 
 ou
 
 $$
-\displaystyle{r = \frac{cov(X, Y)}{\sqrt{S_{XX}S_{YY}}}}
+\displaystyle{r = corr(X, Y) = \frac{cov(X, Y)}{\sqrt{ \frac{S_{XX}}{n}\frac{S_{YY}}{n}}}}
 $$
 \end{itemize}
 
