@@ -94,17 +94,6 @@ $$ P (\left. B_i \right| A) = \frac{P(B_i \cap A)}{P(A)} = \frac{P(B_i) \times P
 * Thomas Bayes $\Rightarrow$ Inferência Bayesiana (diferente da visão clássica de inferência, não cobrimos no curso);
 * Conhecimento *a priori* *versus* *a posteriori*.
 
-
-No software `R` podemos calcular média e mediana usando as funções `mean()` e `median()`. (E para moda?)
-
-```{r exemplo,results='hold'}
-x <- c(12, 9, 11, 7, 9, 14, 6, 10)
-mean(x); median(x); names(table(x))[which.max(table(x))]
-```
-
-No `R` os comandos `var()` e `sd()` calculam a variância e o desvio padrão (ambos usam denominador $n-1$).
-
-
 \vspace{2.0cm}
 
 ***
