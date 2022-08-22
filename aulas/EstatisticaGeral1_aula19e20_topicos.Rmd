@@ -1,0 +1,64 @@
+---
+title: "Plano Aula 19 e 20"
+# author: "Markus Stein"
+# date: "01 February 2021"
+output: pdf_document
+    # toc: yes
+header-includes:
+    - \usepackage{fancyhdr}
+always_allow_html: yes
+---
+\addtolength{\headheight}{1.0cm}
+\pagestyle{fancyplain} 
+\lhead{\includegraphics[height=1.5cm]{logoIME.png}}
+\rhead{\includegraphics[height=1.5cm]{images.jpg}}
+\chead{UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
+DEPARTAMENTO DE ESTATÍSTICA \\
+\vspace{0.3cm}
+MAT02214 - Estatística Geral 1 - 2022/1
+}
+\renewcommand{\headrulewidth}{0pt} 
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Prova 2
+
+Relembrar:
+
+* Probabilidade:
+    + modelos determinísticos e probabilísticos;
+    + experimento, espaco amostral, eventos e álgebra;
+    + definições de probabilidade, axiomas e propriedades;
+    + probabilidade condicional e independência;
+    + teoremas da probabilidade total e de Bayes.
+    
+* Variáveis Aleatórias
+    + definição, variáveis aleatórias discretas;
+    + distribuição de probabilidade e função de distribuição, propriedades;
+    + esperança e variância, propriedades;
+    + modelos de distribuição de probabilidade; binomial, hipergeométrica e Poisson.
+
+\vspace{0.5cm}
+
+Usar o **formulário** para resolução das questões.
+
+\vspace{0.5cm}
+
+**Boa avaliação!!!**
+
+<!-- \vspace{0.5cm} -->
+
+***
+## Rever planos de aula, slides/vídeos e listas de exercícios da área 2.
+## Fazer o simulado para a prova 2 - VALE PONTO EXTRA!!!
+## Prova 2 no próximo sábado!!!
+***  
+
+\vspace{1.0cm}
+
+## Exercícios resolvidos
+Vídeos no canal do youtube da disciplina "Probabilidade e Estatística (EAD)" em https://youtube.com/playlist?list=PLovxQRJ6ihimCFe4EbeAC0wysDTtt7ln8 
