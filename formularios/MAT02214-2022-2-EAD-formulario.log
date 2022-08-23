@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.19)  23 AUG 2022 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.19)  23 AUG 2022 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MAT02214-2022-1-EAD-formulario.tex
-(./MAT02214-2022-1-EAD-formulario.tex
+**MAT02214-2022-2-EAD-formulario_test.tex
+(./MAT02214-2022-2-EAD-formulario_test.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-05> (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -37,6 +37,18 @@ Package: babel 2022/07/20 3.78 The Babel package
 \bbl@dirlevel=\count194
 
 
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4364 \DeclareOption*{}2
+                         \ProcessOptions*
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 ! Package babel Error: Unknown option 'brazil'. Either you misspelled it
 (babel)                or the language definition file brazil.ldf was not found.
 
@@ -44,14 +56,14 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4365 \ProcessOptions*
-                       
+l.4364 \DeclareOption*{}2\ProcessOptions*
+                                         
 Valid options are, among others: shorthands=, KeepShorthandsActive,
 activeacute, activegrave, noconfigs, safe=, main=, math=
 headfoot=, strings=, config=, hyphenmap=, or a language name.
 
 Package babel Info: You haven't specified a language. I'll use 'nil'
-(babel)             as the main language. Reported on input line 4410.
+(babel)             as the main language. Reported on input line 4409.
 (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/nil.ldf
 Language: nil 2022/07/20 3.78 Nil language
 \l@nil=\language5
@@ -232,8 +244,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box59
-) (./MAT02214-2022-1-EAD-formulario.aux)
-\openout1 = `MAT02214-2022-1-EAD-formulario.aux'.
+) (./MAT02214-2022-2-EAD-formulario_test.aux)
+\openout1 = `MAT02214-2022-2-EAD-formulario_test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -289,40 +301,51 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
  (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 94.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 96.
  (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+<eventos_relacoes.png, id=1, 1220.30907pt x 685.05937pt>
+File: eventos_relacoes.png Graphic file (type png)
+<use eventos_relacoes.png>
+Package pdftex.def Info: eventos_relacoes.png  used on input line 103.
+(pdftex.def)             Requested size: 364.19667pt x 204.45317pt.
 
-{c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (15.24768pt too wide) in paragraph at lines 150--151
-[]\OT1/cmr/m/n/10 O \OT1/cmr/bx/n/10 coeficiente de curtose \OT1/cmr/m/n/10 ^^Se $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[]=\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[]\OT1/cmr/m/n/10 )[]$, em que $\OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 = [][] []\OML/cmm/m/it/10 =n$ \OT1/cmr/m/n/10 e $\OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 = [][] []\OML/cmm/m/it/10 =n$\OT1/cmr/m/n/10 . 
+Overfull \hbox (6.82062pt too wide) in paragraph at lines 123--124
+[]\OT1/cmr/m/n/10 Regra da probabilidade total: consideremos $\OML/cmm/m/it/10 A$ \OT1/cmr/m/n/10 um evento qualquer referente a $
+$, e $\OML/cmm/m/it/10 B[]; B[]; [] ; B[]$
  []
 
-[2
+[1
 
-] (./MAT02214-2022-1-EAD-formulario.aux) ) 
+{c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./eventos_relacoes.png>]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 167.
+
+[2] (./MAT02214-2022-2-EAD-formulario_test.aux) ) 
 Here is how much of TeX's memory you used:
- 4694 strings out of 479618
- 76138 string characters out of 5876324
- 399250 words of memory out of 5000000
- 23184 multiletter control sequences out of 15000+600000
+ 4703 strings out of 479618
+ 76374 string characters out of 5876324
+ 398269 words of memory out of 5000000
+ 23191 multiletter control sequences out of 15000+600000
  472442 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,5n,76p,681b,174s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on MAT02214-2022-1-EAD-formulario.pdf (2 pages, 140429 bytes).
+ 70i,12n,76p,305b,277s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on MAT02214-2022-2-EAD-formulario_test.pdf (2 pages, 226731 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

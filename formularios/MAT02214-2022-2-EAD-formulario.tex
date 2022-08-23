@@ -1,0 +1,206 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Modelo com instru\c{c}\~{o}es para prepara\c{c}\~{a}o de trabalho para a 55a. RBRAS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt]{article}%
+\usepackage[latin1]{inputenc}%
+\usepackage[brazil]{babel}%
+\usepackage{epsfig}%
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{mathrsfs}%
+\usepackage{amssymb}%
+\usepackage{graphicx}%
+\usepackage{longtable}%
+\usepackage{geometry, calc, color, setspace}%
+\usepackage{indentfirst}%
+\usepackage{wrapfig}%
+%\usepackage{cite}
+\usepackage[round,authoryear]{natbib}
+%\usepackage[colorlinks=true]{hyperref}%
+\usepackage{lscape}
+
+\def\us{\char`\_}
+
+%\pagestyle{empty}
+
+\geometry{a4paper, headsep=1.0cm, footskip=1cm, lmargin=2.5cm, rmargin=2.5cm,
+         tmargin=2.5cm, bmargin=2.5cm, headheight=2.5cm}
+
+\renewcommand{\baselinestretch}{1.2}  % Espa\c{c}o entre linhas
+\def\Var{{\rm Var}\,}
+\def\E{{\rm E}\,}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%             In\'{\i}cio do documento
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+{\bf 
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
+INSTITUTO DE MATEMÁTICA E ESTATÍSTICA\\
+DEPARTAMENTO DE ESTATÍSTICA\\
+MAT02214 - Estatística Geral 1}\\
+\vspace*{0.1cm}{\bf ÁREA 2}
+\end{center}
+\pagenumbering{arabic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace*{0.1cm}
+%\begin{center}
+%{\bf INSTRUÇÕES}
+%\end{center}
+%
+%\begin{itemize}%\setlength{\itemsep}{+1mm}
+%\item A prova é individual.
+%\item A prova é sem consulta, \textbf{com exceção} do formulário que se encontra a seguir.
+%\item Você pode utilizar uma calculadora para realizar as questões.
+%\begin{itemize}
+%\item No caso de uma divisão, você pode deixar o resultado na forma de frações.
+%\end{itemize}
+%\item Leia com atenção todas as questões antes de resolvê-las.
+%\item As questões podem ser realizadas na ordem de sua preferência.
+%\item O desenvolvimento das questões será considerado. Portanto, escreva de maneira legível o seu raciocínio, esclarecendo suas suposições para a solução das questões. Não esqueça de indicar claramente o número da questão que você está respondendo.
+%\item Coloque o seu nome e número de cartão nas folhas de resolução.
+%\item A prova começará as 16 hs 30 min e tem duração de uma hora e quarenta minutos.
+%\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{center}
+%{\bf 
+%UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
+%INSTITUTO DE MATEMÁTICA E ESTATÍSTICA\\
+%DEPARTAMENTO DE ESTATÍSTICA\\
+%MAT02219 - PROBABILIDADE E ESTATÍSTICA}\\
+%\vspace*{0.5cm}
+%{\bf PROVA 2 - 2017/2}
+%\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace*{0.5cm}
+\begin{center}
+{\bf FORMULÁRIO}
+\end{center}
+
+
+\textbf{Probabilidade}
+
+\emph{Técnicas de contagem}
+
+\begin{itemize}%\setlength{\itemsep}{+1mm}
+\item \textbf{Permutações:} ${\rm P}_n = n!$.
+\item \textbf{Arranjos:} ${\rm A}_n^x = \frac{n!}{(n-x)!}$.
+\item \textbf{Combinações:} ${\rm C}_n^x = \frac{n!}{x!(n-x)!}$.
+\end{itemize}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.8\columnwidth]{eventos_relacoes.png}
+\caption{Operações entre eventos aleatórios.}
+\end{figure}
+
+\emph{Relações entre eventos}
+
+\begin{itemize}%\setlength{\itemsep}{+1mm}
+\item Sejam $A$ e $B$ dois eventos em um espaço amostral $\Omega$. Valem as seguintes relações entre conjuntos:% (De Morgan):
+$$
+\overline{(A\cup B)} = \overline{A} \cap \overline{B}\quad \mbox{e}\quad \overline{(A\cap B)} = \overline{A} \cup \overline{B}.
+$$
+\end{itemize}
+
+\emph{Cálculo de probabilidades}
+
+\begin{itemize}
+\item Regra da adição de probabilidades: sejam $A$ e $B$ eventos em $\Omega$, então $\Pr(A\cup B) = \Pr(A) + \Pr(B) - \Pr(A\cap B)$.
+\item Sejam $A$ e $B$ dois eventos em um espaço amostral $\Omega$. A probabilidade condicional de $B$ dado que o evento $A$ ocorreu é definida como $\Pr(B|A) = \frac{\Pr(A \cap B)}{\Pr(A)},\ \mbox{desde que}\ \Pr(A) > 0$.
+\begin{itemize}
+\item Regra da multiplicação: $\Pr(A \cap B) = \Pr(B|A)\Pr(A)$.
+\item Regra da probabilidade total: consideremos $A$ um evento qualquer referente a $\Omega$, e $B_1, B_2, \ldots, B_k$ uma partição de $\Omega$, então $\Pr(A) = \Pr(A|B_1)\Pr(B_1) + \Pr(A|B_2)\Pr(B_2) + \ldots + \Pr(A|B_k)\Pr(B_k)$.
+\item Teorema de Bayes: seja $B_1, B_2, \ldots, B_k$ uma partição do espaço amostral $\Omega$ e seja $A$ um evento associado a $\Omega$, poderemos escrever
+$$
+\Pr(B_i|A) = \frac{\Pr(A|B_i)\Pr(B_i)}{\Pr(A|B_1)\Pr(B_1) + \Pr(A|B_2)\Pr(B_2) + \ldots + \Pr(A|B_k)\Pr(B_k)}, i = 1, 2, \ldots, k.
+$$
+\end{itemize}
+\end{itemize}
+
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.25\columnwidth]{keep-calm-and-boa-prova-40.png}
+%\end{figure}
+
+\textbf{Variáveis aleatórias}
+
+\begin{itemize}%\setlength{\itemsep}{+1mm}
+\item Seja $X$ uma {\bf variável aleatória (v.a.) discreta} ($X$ assume valores em $\{x_1,x_2,\ldots\}$), então o {\bf valor esperado} (média) e a {\bf variância} de $X$, são, respectivamente:
+$$
+\mu = \E[X] = \sum_{j=1}^{\infty}{x_j p(x_j)}\quad\mbox{e}\quad \sigma^2 = \Var[X] = \E[(X - \mu)^2] = \sum_{j=1}^{\infty}{(x_j - \mu)^2 p(x_j)} = \E[X^2] - \mu^2,
+$$
+em que $p(x_j) = \Pr(X = x_j)$ é a {\bf função de probabilidade} de $X$ e $\E[X^2] = \sum_{j=1}^{\infty}{x_j^2 p(x_j)}$.
+\begin{itemize}
+\item[$\bigstar$] Se $X$ {\bf assumir apenas um número finito de valores}, as expressões acima tornam-se $\E[X] = \sum_{j=1}^{n}{x_j p(x_j)}$, $\Var[X] = \sum_{j=1}^{n}{(x_j - \mu)^2 p(x_j)}$ e $\E[X^2] = \sum_{j=1}^{n}{x_j^2 p(x_j)}$.
+\end{itemize}
+% \item Se $X$ é {\bf v.a. contínua}, então o valor esperado (média) e a variância de $X$, são, respectivamente:
+% $$
+% \mu = \E[X] = \int_{-\infty}^{\infty}{xf(x)dx}\quad\mbox{e}\quad \sigma^2 = \Var[X] = \E[(X - \mu)^2] = \int_{-\infty}^{\infty}{(x - \mu)^2 f(x)dx} = \E[X^2] - \mu^2,
+% $$
+% em que $f(x)$ é a {\bf função densidade de probabilidade} (fdp) de $X$ e $\E[X^2] = \int_{-\infty}^{\infty}{x^2f(x)dx}$.
+% \begin{itemize}
+% \item[$\bigstar$] Se $X$ {\bf assumir apenas valores em um intervalo} $S_X \subset \mathbb{R}$, as expressões acima tornam-se $\E[X] = \int_{S_X}{xf(x)dx}$, $\Var[X] = \int_{S_X}{(x - \mu)^2f(x)dx}$ e $\E[X^2] = \int_{S_X}{x^2f(x)dx}$.
+% \end{itemize}
+\item Seja $X$ uma variável aleatória, então $F(x) = \Pr(X\leq x)$ é a {\bf função de distribuição acumulada} (fda) de $X$.
+\begin{itemize}
+\item[$\bigstar$] $\displaystyle{F(x) = \sum_{j:x_j\leq x}{p(x_j)}}$, se $X$ é v.a. discreta.
+% \item[$\bigstar$] $\displaystyle{F(x) = \int_{-\infty}^x{f(u)du}}$, se $X$ é v.a. contínua.
+\end{itemize}
+\end{itemize}
+
+
+\textbf{Distribuições de probabilidade}
+
+Na Tabela \ref{tab1} considere:
+\begin{itemize}
+\item ${\rm C}_n^x = {n \choose x} = \frac{n!}{x! (n - x)!}$ é o número de subconjuntos de $x$ elementos diferentes de um conjunto de $n$ elementos diferentes.
+\item Para a distribuição Bernoulli e Binomial, $\pi$ representa a probabilidade de sucesso ($\{X = 1\}$).
+% \item Para as distribuições Normal e $t$-Student, $\pi$ representa o valor $3,14\ldots$.
+% \item Para as distribuições Qui-quadrado e $t$-Student, $\Gamma(u) = \int_0^{\infty}{x^{u-1}e^{-x}dx}$.
+\end{itemize}
+\begin{table*}[ht]\centering
+% \ra{1.3}
+\caption{Distribuição de probabilidade, média e variância.}
+\label{tab1}
+\begin{tabular}{@{}llcc@{}}
+\hline
+\multicolumn{4}{c}{\bf Variáveis aleatórias discretas}\\
+Distribuição de $X$ & $\Pr(X = x)$ & $\E[X]$ & $\Var[X]$\\
+\hline
+${\rm Uniforme}(1,k)$ & $\displaystyle{\frac{1}{k}, j = 1, \ldots, k.}$ & $\displaystyle{\frac{1+k}{2}}$ & $\displaystyle{\frac{k^2 - 1}{12}}$\\
+${\rm Bernoulli}(\pi)$ & $\displaystyle{\pi^x (1 - \pi)^{1 - x}, x = 0,1.}$ & $\pi$ & $\pi(1 - \pi)$\\
+${\rm Binomial}(n, \pi)$ & $\displaystyle{{n \choose x}\pi^x (1 - \pi)^{n - x}, x = 0,\ldots,n.}$ & $n\pi$ & $n\pi(1 - \pi)$\\
+%\midrule
+%$\mbox{Geométrica}(p)$ &  $\displaystyle{(1-p)^{j-1}p, j = 1,2,\ldots.}$ & $\displaystyle{\frac{1}{p}}$ & $\displaystyle{\frac{1-p}{p^2}}$\\
+$\mbox{Hipergeométrica}(n,N,N_1)$ & $\displaystyle{\frac{{\rm C}_{N_1}^x {\rm C}_{N_2}^{n-x}}{{\rm C}_N^n}, x = 0, 1, \ldots, n.}$& $\displaystyle{n\frac{N_1}{N}}$ & $\displaystyle{n\frac{N_1}{N}\frac{N_2}{N}}\left(\frac{N-n}{N-1}\right)$\\
+${\rm Poisson}(\lambda)$ & $\displaystyle{\frac{e^{-\lambda}\lambda^x}{x!}, x = 0, 1, \ldots.}$& $\lambda$ & $\lambda$\\
+\hline
+% \midrule
+% \multicolumn{4}{c}{\bf Variáveis aleatórias contínuas}\\
+% \midrule
+% ${\rm Uniforme}(\alpha,\beta)$ & $\displaystyle{\frac{1}{\beta-\alpha}, \alpha\leq x\leq \beta.}$ & $\displaystyle{\frac{\alpha + \beta}{2}}$ & $\displaystyle{\frac{(\beta - \alpha)^2}{12}}$\\
+% \midrule
+% ${\rm Exponencial}(\lambda)$ &  $\displaystyle{\lambda e^{-\lambda x}, x > 0, \lambda > 0.}$ & $\displaystyle{\frac{1}{\lambda}}$ & $\displaystyle{\frac{1}{\lambda^2}}$\\
+% \midrule
+% ${\rm Normal}(\mu, \sigma^2)$ & $\displaystyle{\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}, -\infty < x < \infty, -\infty < \mu < \infty,  \sigma^2 > 0.}$& $\mu$ & $\sigma^2$\\
+% \midrule
+% $\mbox{Normal}(0, 1)$ & $\displaystyle{\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}, -\infty < x < \infty.}$& $0$ & $1$\\
+% \midrule
+% ${\rm Qui-quadrado}(\nu)$ & $\displaystyle{\frac{1}{2^{\nu/2}\Gamma(\nu/2)}x^{\frac{\nu}{x} - 1}e^{\frac{x}{2}}, x \geq 0, \nu > 0.}$& $\nu$ & $2\nu$\\
+% \midrule
+% $t{\rm -Student}(\nu)$ & $\displaystyle{\frac{\Gamma((\nu+1)/2)}{\Gamma(\nu/2)\sqrt{\pi\nu}}\left(1+\frac{x^2}{\nu}\right)^{-(\nu+1)/2}, -\infty < x < \infty, \nu > 0.}$& $0$ ($\nu > 1$)& $\frac{\nu}{\nu - 2}$ ($\nu > 2$)\\
+\end{tabular}
+\end{table*}
+
+\end{document}
