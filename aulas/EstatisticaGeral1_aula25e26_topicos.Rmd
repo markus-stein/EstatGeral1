@@ -25,22 +25,34 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### (cont... Variáveis Aleatórias)
-## Vetores aleatórios (capítulo 8, Livro Bussab e Morettin)
 
-Definição **vetor aleatório**: ... 
+# Vetores aleatórios (capítulo 8, Livro Bussab e Morettin)
+Estamos interessados agora em estudar mais de uma variável aleatória, X, Y, Z, ..., para um mesmo experimento aleatório de interesse.
+
+Definição **vetor aleatório**: denotamos $(X, Y)$ um vetor aleatório onde $X$ e $Y$ são v.a. discretas definidas no mesmo espaço amostral $S$ de um experimento aleatório $E$, assumindo particulares pares de valores $(x,y)$.
 
 <!-- quando o espaço amostral associado a uma $v.a.$ puder assumir valores reais, $\Omega_X \subseteq \mathbb{R}$, ou infinito, denominamos v.a. contínua. -->
 
-**Exemplo 1**: ...
+**Exemplo 1**: Em uma pesquisa de opinião, podemos estar interessados em estudar a relação da escolaridade dos entrevistados (X), em anos de estudo, se o entrevistado cursou escola pública ou não (Y) e qual a sua opinição quanto desempenho do atual governo (Z), nas categorias péssimo, ruim, regular, bom e ótimo.
 
 <!-- $X$: duração de vida de um tipo de lâmpada, $X \in (0, \infty)$. -->
 <!-- , $X \sim Normal(\mu, \sigma^2)$. $E(X) = \mu$.   -->
 
-### 1. Distribuição conjunta (seção 8.1, Livro Bussab e Morettin)
+## 1. Distribuição conjunta (seção 8.1, Livro Bussab e Morettin)
 
-* Função massa conjunta 
+### **$X$ e $Y$ v.a. discretas**
 
-* Função densidade conjunta
+Definição **Função massa de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por $p(x, y) = P([X=x] \cap [Y=y])$.   
+
+*propriedades*: (1) $0 \leq p(x,y) \leq 1$; (2) $\sum_x \sum_y p(x,y) = 1$.  
+
+Definição **Funções massa de probabilidade marginais**: ...
+<!-- Seja $(X, Y)$ um vetor aleatório, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por $p(x, y) = P([X=x] \cap [Y=y])$.   -->
+
+
+### **$X$ e $Y$ v.a. contínuas**
+
+Definição **Função densidade de probabilidade conjunta**: ...
 
 <!-- * Geralmente os espaços amostrais, $\Omega$, de experimentos envolvendo observação de v.a. contínuas coincidem com o espaço da própria v.a., $\Omega_X$. -->
 <!--     + No **exemplo 1**: $\Omega = \Omega_X = (0, \infty)$ -->
@@ -48,7 +60,7 @@ Definição **vetor aleatório**: ...
 
 <!-- * Como representar a distribuição de probabilidade de uma v.a. contínua? -->
 
-### 2. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin)
+## 2. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin)
 
 * Função massa marginal 
 
@@ -64,7 +76,7 @@ Definição **vetor aleatório**: ...
 <!-- * Variância - $V(X) =  E \left\{ \left[ x - E(X) \right]^2 \right\} = E(X^2) - \left[ E(X) \right]^2 = \int_{- \infty}^{ \infty} \left[ x - E(X) \right]^2 \: f(x) \: dx$; -->
 <!-- * Proprieadades: ... . -->
 
-### 3. Covariância e correlação (seção 8.4, Livro Bussab e Morettin)
+## 3. Covariância e correlação (seção 8.4, Livro Bussab e Morettin)
 
 <!-- Definição **função de distribuição**: a função $F: \Omega_X \rightarrow  [0,1]$ tal que $F(x) = P(X \leq  x) = \int_{- \infty}^{x} f(y) \: dy$ é denominada funçao de distribuição (acumulada). -->
 
