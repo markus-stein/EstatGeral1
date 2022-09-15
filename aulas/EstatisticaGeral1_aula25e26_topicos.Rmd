@@ -27,30 +27,36 @@ knitr::opts_chunk$set(echo = TRUE)
 ### (cont... Variáveis Aleatórias)
 
 # Vetores aleatórios (capítulo 8, Livro Bussab e Morettin)
-Estamos interessados agora em estudar mais de uma variável aleatória, X, Y, Z, ..., para um mesmo experimento aleatório de interesse.
+Estudamos agora o comportamento de mais de uma variável aleatória, $X, Y, Z, \ldots$.
 
-Definição **vetor aleatório**: denotamos $(X, Y)$ um vetor aleatório onde $X$ e $Y$ são v.a. discretas definidas no mesmo espaço amostral $S$ de um experimento aleatório $E$, assumindo particulares pares de valores $(x,y)$.
+## 1. O caso de duas variáveis $X$ e $Y$ discretas
+
+Definição **vetor aleatório discreto**: denotamos $(X, Y)$ um vetor aleatório onde $X$ e $Y$ são v.a. discretas definidas no mesmo espaço amostral $S$ de um experimento aleatório $E$, assumindo particulares pares de valores $(x,y)$.
 
 <!-- quando o espaço amostral associado a uma $v.a.$ puder assumir valores reais, $\Omega_X \subseteq \mathbb{R}$, ou infinito, denominamos v.a. contínua. -->
 
-**Exemplo 1**: Em uma pesquisa de opinião, podemos estar interessados em estudar a relação da escolaridade dos entrevistados (X), em anos de estudo, se o entrevistado cursou escola pública ou não (Y) e qual a sua opinição quanto desempenho do atual governo (Z), nas categorias péssimo, ruim, regular, bom e ótimo.
+**Exemplo 1**: Em uma pesquisa de opinião, podemos estar interessados em estudar a relação da escolaridade dos entrevistados (X), em anos de estudo, se o entrevistado cursou escola pública ou não (Y) e qual a sua opinição quanto desempenho do atual governo (Z), nas categorias péssimo, ruim, regular, bom e ótimo.  
 
 <!-- $X$: duração de vida de um tipo de lâmpada, $X \in (0, \infty)$. -->
 <!-- , $X \sim Normal(\mu, \sigma^2)$. $E(X) = \mu$.   -->
 
-## 1. Distribuição conjunta (seção 8.1, Livro Bussab e Morettin)
 
-### **$X$ e $Y$ v.a. discretas**
+a. Distribuição conjunta (seção 8.1, Livro Bussab e Morettin)
 
-Definição **Função massa de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por $p(x, y) = P([X=x] \cap [Y=y])$.   
-
-*propriedades*: (1) $0 \leq p(x,y) \leq 1$; (2) $\sum_x \sum_y p(x,y) = 1$.  
-
-Definição **Funções massa de probabilidade marginais**: ...
-<!-- Seja $(X, Y)$ um vetor aleatório, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por $p(x, y) = P([X=x] \cap [Y=y])$.   -->
+Definição **Função massa de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por 
+$$p(x, y) = P([X=x] \cap [Y=y]).$$   
+* *propriedades*: (1) $0 \leq p(x,y) \leq 1$; (2) $\sum_x \sum_y p(x,y) = 1$.   
 
 
-### **$X$ e $Y$ v.a. contínuas**
+b. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin)
+
+Definição **Funções massa de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório, as f.m.p. marginais de $X$ e $Y$ são dadas respectivamente por 
+$$p(x) = \sum_y p(x, y) \text{ e } p(y) = \sum_x p(x, y).$$
+* $p(x)$ e $p(x)$ seguem as propriedades de uma f.m.p.
+
+## 2. O caso de duas variáveis $X$ e $Y$ **contínuas**
+
+a. Distribuição conjunta
 
 Definição **Função densidade de probabilidade conjunta**: ...
 
@@ -60,11 +66,8 @@ Definição **Função densidade de probabilidade conjunta**: ...
 
 <!-- * Como representar a distribuição de probabilidade de uma v.a. contínua? -->
 
-## 2. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin)
+b. Distribuições marginais
 
-* Função massa marginal 
-
-* Função densidade marginal
 
 <!-- Definição **função densidade de probabilidade**: a função $f: \Omega_X \rightarrow  [0,1]$ não negativa, $f(x) \geq 0$  para todo $x \in (- \infty, \infty)$, e $\int_{- \infty}^{ \infty} f(x) \: dx = 1$, é denominada função densidade de probabilidade. -->
 
