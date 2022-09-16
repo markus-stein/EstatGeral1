@@ -31,11 +31,11 @@ Estudamos agora o comportamento de mais de uma variável aleatória, $X, Y, Z, \
 
 ## 1. O caso de duas variáveis $X$ e $Y$ discretas
 
-Definição **vetor aleatório discreto**: denotamos $(X, Y)$ um vetor aleatório onde $X$ e $Y$ são v.a. discretas definidas no mesmo espaço amostral $S$ de um experimento aleatório $E$, assumindo particulares pares de valores $(x,y)$.
+Definição **vetor aleatório discreto**: denotamos $(X, Y)$ um vetor aleatório discreto, em que $X$ e $Y$ são v.a. discretas definidas no mesmo espaço amostral $S$ de um experimento aleatório $E$, assumindo particulares pares de valores $(x,y)$.
 
 <!-- quando o espaço amostral associado a uma $v.a.$ puder assumir valores reais, $\Omega_X \subseteq \mathbb{R}$, ou infinito, denominamos v.a. contínua. -->
 
-**Exemplo 1**: Em uma pesquisa de opinião, podemos estar interessados em estudar a relação da escolaridade dos entrevistados (X), em anos de estudo, se o entrevistado cursou escola pública ou não (Y) e qual a sua opinição quanto desempenho do atual governo (Z), nas categorias péssimo, ruim, regular, bom e ótimo.  
+**Exemplo 1**: Em uma pesquisa de opinião, podemos estar interessados em estudar a relação da escolaridade dos entrevistados ($X$), em anos de estudo, se o entrevistado cursou escola pública ou não (Y) e qual a sua opinição quanto desempenho do atual governo ($Z$), nas categorias péssimo, ruim, regular, bom e ótimo.  
 
 <!-- $X$: duração de vida de um tipo de lâmpada, $X \in (0, \infty)$. -->
 <!-- , $X \sim Normal(\mu, \sigma^2)$. $E(X) = \mu$.   -->
@@ -43,52 +43,87 @@ Definição **vetor aleatório discreto**: denotamos $(X, Y)$ um vetor aleatóri
 
 a. Distribuição conjunta (seção 8.1, Livro Bussab e Morettin)
 
-Definição **Função massa de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por 
+Definição **Função massa de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório discreto, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por 
 $$p(x, y) = P([X=x] \cap [Y=y]).$$   
 * *propriedades*: (1) $0 \leq p(x,y) \leq 1$; (2) $\sum_x \sum_y p(x,y) = 1$.   
 
 
 b. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin)
 
-Definição **Funções massa de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório, as f.m.p. marginais de $X$ e $Y$ são dadas respectivamente por 
+Definição **Funções massa de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório discreto, as f.m.p. marginais de $X$ e $Y$ são dadas respectivamente por 
 $$p(x) = \sum_y p(x, y) \text{ e } p(y) = \sum_x p(x, y).$$
-* $p(x)$ e $p(x)$ seguem as propriedades de uma f.m.p.
-
-## 2. O caso de duas variáveis $X$ e $Y$ **contínuas**
-
-a. Distribuição conjunta
-
-Definição **Função densidade de probabilidade conjunta**: ...
-
-<!-- * Geralmente os espaços amostrais, $\Omega$, de experimentos envolvendo observação de v.a. contínuas coincidem com o espaço da própria v.a., $\Omega_X$. -->
-<!--     + No **exemplo 1**: $\Omega = \Omega_X = (0, \infty)$ -->
-<!--     + No **exemplo 2**: $\Omega = \Omega_X = \mathbb{R}$ -->
-
-<!-- * Como representar a distribuição de probabilidade de uma v.a. contínua? -->
-
-b. Distribuições marginais
+$p(x)$ e $p(y)$ seguem as mesmas propriedades de uma f.m.p.
 
 
-<!-- Definição **função densidade de probabilidade**: a função $f: \Omega_X \rightarrow  [0,1]$ não negativa, $f(x) \geq 0$  para todo $x \in (- \infty, \infty)$, e $\int_{- \infty}^{ \infty} f(x) \: dx = 1$, é denominada função densidade de probabilidade. -->
 
-<!-- * Probabilidades estão associadas a áreas para v.a. contínuas. -->
-<!--     + A probabilidade de uma v.a. contínua $X$ assumir um particular valor é igual a zero, $P(X=x) = 0$ para todos $X \in \Omega_X$. -->
+## 2. O caso de duas variáveis $X$ e $Y$ **contínuas** (seção 8.5, Livro Bussab e Morettin)
 
-<!-- e Variância (seção 7.2, Livro Bussab e Morettin) -->
-<!-- * Valor esperado, ou média - $E(X) = \int_{- \infty}^{ \infty} x \: f(x) \: dx$; -->
-<!-- * Variância - $V(X) =  E \left\{ \left[ x - E(X) \right]^2 \right\} = E(X^2) - \left[ E(X) \right]^2 = \int_{- \infty}^{ \infty} \left[ x - E(X) \right]^2 \: f(x) \: dx$; -->
-<!-- * Proprieadades: ... . -->
+Definição **vetor aleatório contínuo**: denotamos $(X, Y)$ um vetor aleatório contínuo, onde $X$ e $Y$ são v.a. contínuas definidas no mesmo espaço amostral $S$ de um experimento aleatório $E$, assumindo particulares pares de valores $\left\{ (x,y): a \leq x \leq b, c \leq y \leq d \right\}$.
 
-## 3. Covariância e correlação (seção 8.4, Livro Bussab e Morettin)
+a. Distribuição conjunta (pág. 225, seção 8.5, Livro Bussab e Morettin)
 
-<!-- Definição **função de distribuição**: a função $F: \Omega_X \rightarrow  [0,1]$ tal que $F(x) = P(X \leq  x) = \int_{- \infty}^{x} f(y) \: dy$ é denominada funçao de distribuição (acumulada). -->
+Definição **Função densidade de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório contínuo, denominamos $f(x, y)$ a f.d.p. conjunta de $X$ e $Y$ se 
+$$P( a \leq x \leq b, c \leq y \leq d) = \int_a^b \int_c^d f(x,y) dx dy.$$   
+*propriedades*: (1) $f(x,y) > 0$; (2) $\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f(x,y) dx dy = 1$.
 
-<!-- * Propriedades: $lim_{x \rightarrow \infty} F(x) = 1$ e $lim_{x \rightarrow - \infty} F(x) = 0$; -->
-<!--     + $P(a \leq X \leq b) = F(b) - F(a)$; -->
-<!--     + $F(x)$ existe para todos os números reais, diferente da f.d.p.. -->
 
-* Variáveis aleatórias independentes
+b. Distribuições marginais (pág. 227, seção 8.5, Livro Bussab e Morettin)
 
+Definição **Funções densidade de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório contínuo, as f.d.p. marginais de $X$ e $Y$ são dadas respectivamente por 
+$$f(x) = \int_{-\infty}^{\infty} f(x, y) dy \text{ e } f(y) = \int_{-\infty}^{\infty} f(x, y) dx.$$
+* $f(x)$ e $f(y)$ seguem as mesmas propriedades de uma f.d.p.
+
+
+## 3. Variáveis aleatória **independentes**
+Sabemos que dois conjuntos $A$ e $B$, definidos no mesmo espaço amostral $S$ de um experimento aleatório $E$, são independentes se e somente se $P(A \cap B) = P(A) \times P(B)$. Para v.a. temos
+
+Definição **Variáveis aleatórias independentes**: Duas v.a. são independentes se para cada par de valores $x$ e $y)$, temos 
+
+$$p(x,y) = p(x) \times p(y), \text{ se } (X,Y) \text{ é um vetor aleatório discreto,}$$
+ou
+$$f(x,y) = f(x) \times f(y), \text{ se } (X,Y) \text{ é um vetor aleatório contínuo.}$$
+
+## 4. Covariância e correlação (seção 8.4, Livro Bussab e Morettin)
+
+* **Funções de variáveis aleatórias** (seção 8.3, Livro Bussab e Morettin)
+    + Se temos interesse na v.a. $Z = X + Y$, como calcular $E(Z) = E(X + Y)$ e $Var(Z) = Var(X + Y)$?  
+    + ou $W = XY$, qual a $E(W) = E(XY)$ e $Var(XY)$?  
+
+* Como medir a dependência entre $X$ e $Y$?
+
+### Covariância
+Definição **covariância**: Sejam $X$ e $Y$ duas v.a., se $E(X)$, $E(Y)$, $V(X)$ e $V(Y)$ existem e são finitas, então a covariância entre $X$ e $Y$ é dada por
+$$Cov(X,Y) = E \left[ (X - EX) (Y - EY) \right]$$, 
+ou alternativamente 
+$$Cov(X,Y) = E \left[ X Y \right] - E(X) E(Y).$$
+
+* *Proposições*: 
+    + $-\infty \leq Cov(X,Y) \leq \infty$;
+    + $Cov(X,X) = E \left[ (X - EX) (x - Ex) \right] = E \left[ (X - EX)^2 \right] = Var(X)$;
+    + $Cov(aX, bY) = ab Cov(X,Y)$, para $a$ e $b$ constantes;
+    + $Cov(X, a) = 0$;
+    + $Cov(X + Y) = Cov(X - Y) = Var(X) + Var(Y) - 2Cov(X,Y)$;
+    + se $X$ e $Y$ são *independentes*, $Cov(X,Y) = 0$ pois $E(XY) = E(X)E(Y)$;
+    + também se $X$ e $Y$ são *independentes*, $Var(X+Y) = Var(X-Y) = Var(X) + Var(Y)$;
+    + $Cov(X+Y, Z) = Cov(X,Z) + Cov(Y,Z)$, para $Z$ outra v.a..
+
+**ATENÇÃO!!!** Se $Cov(X,Y) = 0$ não significa que $X$ e $Y$ são independetes, dizemos que $X$ e $Y$ são não correlacionados.
+
+
+### Correlação
+Definição **correlação**: Sejam $X$ e $Y$ duas v.a., se $E(X)$, $E(Y)$, $V(X)$ e $V(Y)$ existem e são finitas, então o coeficiente de correlação entre $X$ e $Y$ é dado por
+$$\rho(X,Y) = \frac{ Cov(X,Y)}{ \sqrt{Var(X)Var(Y)}}.$$ 
+
+* *Proposições*:
+    + O coeficiente de correlação é *adimensional* $-1 \leq Cov(X,Y) \leq 1$;
+    + se $X$ e $Y$ são *independentes* $\rho(X,Y) = 0$, pois $Cov(X,Y) = 0$;
+    + se $Y = aX + b$, para $a$ e $b$ constantes e $a \neq 0$, dizemos que existe correlação perfeita entre $X$ e $Y$, então teremos $\rho(X,Y) = -1$ ou $\rho(X,Y) = 1$.
+
+* Observações:
+    + $\rho(X,Y)$ indica o grau de linearidade da relação entre $X$ e $Y$. Um $\rho(X,Y)$ próximo de 1 ou -1 indica um forte grau de linearidade;
+    + $\rho(X,Y) > 0$ indica uma dependência linear direta (positiva), tendência de aumento de uma v.a. à medida que a outra aumenta também; $\rho(X,Y) < 0$ indica uma dependência linear inversa (negativa), tendência de decrescimento de uma v.a. à medida que a outra aumenta;
+    + $\rho(X,Y) \approx 0$ não indica necessariamente ausência de dependência entre $X$ e $Y$, mas se essa relação existir não deve ser linear.
+    
 \vspace{0.5cm}
 
 ***

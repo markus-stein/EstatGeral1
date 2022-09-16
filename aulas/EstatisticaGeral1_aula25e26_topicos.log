@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  15 SEP 2022 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.12)  16 SEP 2022 10:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,19 +467,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 94.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 166.
-(c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 <logoIME.png, id=4, 521.95pt x 226.8475pt>
 File: logoIME.png Graphic file (type png)
 <use logoIME.png>
-Package pdftex.def Info: logoIME.png  used on input line 182.
+Package pdftex.def Info: logoIME.png  used on input line 175.
 (pdftex.def)             Requested size: 98.19987pt x 42.67917pt.
 <images.jpg, id=5, 198.14024pt x 92.14426pt>
 File: images.jpg Graphic file (type jpg)
 <use images.jpg>
-Package pdftex.def Info: images.jpg  used on input line 182.
+Package pdftex.def Info: images.jpg  used on input line 175.
 (pdftex.def)             Requested size: 91.77446pt x 42.6793pt.
 
 Package fancyhdr Warning: \headheight is too small (40.45274pt): 
@@ -491,13 +487,21 @@ Package fancyhdr Warning: \headheight is too small (40.45274pt):
 [1{c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./LogoIME.png> <./images.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 200.
+(c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+ []
+
 File: logoIME.png Graphic file (type png)
 <use logoIME.png>
-Package pdftex.def Info: logoIME.png  used on input line 184.
+Package pdftex.def Info: logoIME.png  used on input line 271.
 (pdftex.def)             Requested size: 98.19987pt x 42.67917pt.
 File: images.jpg Graphic file (type jpg)
 <use images.jpg>
-Package pdftex.def Info: images.jpg  used on input line 184.
+Package pdftex.def Info: images.jpg  used on input line 271.
 (pdftex.def)             Requested size: 91.77446pt x 42.6793pt.
 
 Package fancyhdr Warning: \headheight is too small (40.45274pt): 
@@ -506,20 +510,36 @@ Package fancyhdr Warning: \headheight is too small (40.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.57195pt}.
 
-[2] (./EstatisticaGeral1_aula25e26_topicos.aux) ) 
+[2]
+File: logoIME.png Graphic file (type png)
+<use logoIME.png>
+Package pdftex.def Info: logoIME.png  used on input line 318.
+(pdftex.def)             Requested size: 98.19987pt x 42.67917pt.
+File: images.jpg Graphic file (type jpg)
+<use images.jpg>
+Package pdftex.def Info: images.jpg  used on input line 318.
+(pdftex.def)             Requested size: 91.77446pt x 42.6793pt.
+
+Package fancyhdr Warning: \headheight is too small (40.45274pt): 
+(fancyhdr)                Make it at least 55.02469pt, for example:
+(fancyhdr)                \setlength{\headheight}{55.02469pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.57195pt}.
+
+[3] (./EstatisticaGeral1_aula25e26_topicos.aux) ) 
 Here is how much of TeX's memory you used:
- 13174 strings out of 477015
- 213066 string characters out of 5825858
- 592628 words of memory out of 5000000
- 34007 multiletter control sequences out of 15000+600000
- 528968 words of font info for 114 fonts, out of 8000000 for 9000
+ 13219 strings out of 477015
+ 213689 string characters out of 5825858
+ 594884 words of memory out of 5000000
+ 34013 multiletter control sequences out of 15000+600000
+ 530340 words of font info for 130 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 74i,15n,81p,1063b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on EstatisticaGeral1_aula25e26_topicos.pdf (2 pages, 198936 bytes).
+ 74i,16n,81p,1077b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on EstatisticaGeral1_aula25e26_topicos.pdf (3 pages, 236558 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 34883 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 34907 words of extra memory for PDF output out of 35830 (max. 10000000)
 
