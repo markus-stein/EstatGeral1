@@ -52,6 +52,13 @@ $$f_{ \left.Y \right| X} \left( \left. y \right| x \right) = \frac{f(x,y)}{f_X \
 
 ## Esperança Condicional. 
 
+Definição **Esperança condicional**: A esperança condicional de $Y$ dado que $X=x$ é dada por   
+$$ E \left( \left. Y \right| X=x \right) = \sum_y y \times P \left( \left. Y=y \right| X=x \right).$$
+
+* Definição análoga para $E \left( \left. X \right| Y=y \right)$.
+
+
+
 ## Variância Condicional
 
     
