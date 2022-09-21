@@ -41,69 +41,14 @@ $$P \left( \left. Y=y \right| X=x \right) = \frac{P(X=x,Y=y)}{P \left( X=x\right
 
 ### 2. O caso de duas variáveis $X$ e $Y$ **contínuas** (seção 8.6, Livro Bussab e Morettin)
 
-Definição **Função densidade de probabilidade condicional**: ... 
+**(cont.) Exemplo 2**: No estudo após a adoção do autoatendimento em uma rede de lanchonetes, dada uma propoção $X=x$ de tempo em que o terminal de autoatendimento está em uso, qual a distrição de probabilidade da proporção de tempo em que o caixa está atendendo ($Y$)?  
 
-<!-- Seja $(X, Y)$ um vetor aleatório contínuo, denominamos $f(x, y)$ a f.d.p. conjunta de $X$ e $Y$ se  -->
-<!-- $$P( a \leq x \leq b, c \leq y \leq d) = \int_a^b \int_c^d f(x,y) dx dy.$$    -->
-<!-- *propriedades*: (1) $f(x,y) > 0$; (2) $\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f(x,y) dx dy = 1$. -->
+Definição **Função densidade de probabilidade condicional**: Seja $(X, Y)$ um vetor aleatório discreto, a f.d.p. condicional de $Y=y$ dado $X=x$, tal que $f(x) > 0$, é definida para cada par $(x, y)$ por 
+$$f_{ \left.Y \right| X} \left( \left. y \right| x \right) = \frac{f(x,y)}{f_X \left( x \right)}.$$   
 
+* Da mesma forma definimos $f_{ \left. X \right| Y} \left( \left. x \right| y \right)$.
+* Funções condicionais são distribuições de probabilidade, portanto  seguem as mesma propriedades de f.d.p. marginais.
 
-<!-- b. Distribuições marginais (pág. 227, seção 8.5, Livro Bussab e Morettin) -->
-
-<!-- Definição **Funções densidade de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório contínuo, as f.d.p. marginais de $X$ e $Y$ são dadas respectivamente por  -->
-<!-- $$f(x) = \int_{-\infty}^{\infty} f(x, y) dy \text{ e } f(y) = \int_{-\infty}^{\infty} f(x, y) dx.$$ -->
-<!-- * $f(x)$ e $f(y)$ seguem as mesmas propriedades de uma f.d.p. -->
-
-
-<!-- ## 3. Variáveis aleatória **independentes** -->
-<!-- Sabemos que dois conjuntos $A$ e $B$, definidos no mesmo espaço amostral $S$ de um experimento aleatório $E$, são independentes se e somente se $P(A \cap B) = P(A) \times P(B)$. Para v.a. temos -->
-
-<!-- Definição **Variáveis aleatórias independentes**: Duas v.a. são independentes se para cada par de valores $x$ e $y)$, temos  -->
-
-<!-- $$p(x,y) = p(x) \times p(y), \text{ se } (X,Y) \text{ é um vetor aleatório discreto,}$$ -->
-<!-- ou -->
-<!-- $$f(x,y) = f(x) \times f(y), \text{ se } (X,Y) \text{ é um vetor aleatório contínuo.}$$ -->
-
-<!-- ## 4. Covariância e correlação (seção 8.4, Livro Bussab e Morettin) -->
-
-<!-- * **Funções de variáveis aleatórias** (seção 8.3, Livro Bussab e Morettin) -->
-<!--     + Se temos interesse na v.a. $Z = X + Y$, como calcular $E(Z) = E(X + Y)$ e $Var(Z) = Var(X + Y)$?   -->
-<!--     + ou $W = XY$, qual a $E(W) = E(XY)$ e $Var(XY)$?   -->
-
-<!-- * Como medir a dependência entre $X$ e $Y$? -->
-
-<!-- ### Covariância -->
-<!-- Definição **covariância**: Sejam $X$ e $Y$ duas v.a., se $E(X)$, $E(Y)$, $V(X)$ e $V(Y)$ existem e são finitas, então a covariância entre $X$ e $Y$ é dada por -->
-<!-- $$Cov(X,Y) = E \left[ (X - EX) (Y - EY) \right]$$,  -->
-<!-- ou alternativamente  -->
-<!-- $$Cov(X,Y) = E \left[ X Y \right] - E(X) E(Y).$$ -->
-
-<!-- * *Proposições*:  -->
-<!--     + $-\infty \leq Cov(X,Y) \leq \infty$; -->
-<!--     + $Cov(X,X) = E \left[ (X - EX) (x - Ex) \right] = E \left[ (X - EX)^2 \right] = Var(X)$; -->
-<!--     + $Cov(aX, bY) = ab Cov(X,Y)$, para $a$ e $b$ constantes; -->
-<!--     + $Cov(X, a) = 0$; -->
-<!--     + $Cov(X + Y) = Cov(X - Y) = Var(X) + Var(Y) - 2Cov(X,Y)$; -->
-<!--     + se $X$ e $Y$ são *independentes*, $Cov(X,Y) = 0$ pois $E(XY) = E(X)E(Y)$; -->
-<!--     + também se $X$ e $Y$ são *independentes*, $Var(X+Y) = Var(X-Y) = Var(X) + Var(Y)$; -->
-<!--     + $Cov(X+Y, Z) = Cov(X,Z) + Cov(Y,Z)$, para $Z$ outra v.a.. -->
-
-<!-- **ATENÇÃO!!!** Se $Cov(X,Y) = 0$ não significa que $X$ e $Y$ são independetes, dizemos que $X$ e $Y$ são não correlacionados. -->
-
-
-<!-- ### Correlação -->
-<!-- Definição **correlação**: Sejam $X$ e $Y$ duas v.a., se $E(X)$, $E(Y)$, $V(X)$ e $V(Y)$ existem e são finitas, então o coeficiente de correlação entre $X$ e $Y$ é dado por -->
-<!-- $$\rho(X,Y) = \frac{ Cov(X,Y)}{ \sqrt{Var(X)Var(Y)}}.$$  -->
-
-<!-- * *Proposições*: -->
-<!--     + O coeficiente de correlação é *adimensional* $-1 \leq Cov(X,Y) \leq 1$; -->
-<!--     + se $X$ e $Y$ são *independentes* $\rho(X,Y) = 0$, pois $Cov(X,Y) = 0$; -->
-<!--     + se $Y = aX + b$, para $a$ e $b$ constantes e $a \neq 0$, dizemos que existe correlação perfeita entre $X$ e $Y$, então teremos $\rho(X,Y) = -1$ ou $\rho(X,Y) = 1$. -->
-
-<!-- * Observações: -->
-<!--     + $\rho(X,Y)$ indica o grau de linearidade da relação entre $X$ e $Y$. Um $\rho(X,Y)$ próximo de 1 ou -1 indica um forte grau de linearidade; -->
-<!--     + $\rho(X,Y) > 0$ indica uma dependência linear direta (positiva), tendência de aumento de uma v.a. à medida que a outra aumenta também; $\rho(X,Y) < 0$ indica uma dependência linear inversa (negativa), tendência de decrescimento de uma v.a. à medida que a outra aumenta; -->
-<!--     + $\rho(X,Y) \approx 0$ não indica necessariamente ausência de dependência entre $X$ e $Y$, mas se essa relação existir não deve ser linear. -->
 
 ## Esperança Condicional. 
 

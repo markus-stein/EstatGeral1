@@ -61,8 +61,8 @@ $$p(x) = \sum_y p(x, y) \text{ e } p(y) = \sum_x p(x, y).$$
 
 Definição **vetor aleatório contínuo**: denotamos $(X, Y)$ um vetor aleatório contínuo, onde $X$ e $Y$ são v.a. contínuas definidas no mesmo espaço amostral $S$ de um experimento aleatório $E$, assumindo particulares pares de valores $\left\{ (x,y): a \leq x \leq b, c \leq y \leq d \right\}$.
 
-**Exemplo 2**: Após a adoção do atuatendimento em uma rede de lanchonetes, os administradores estão interessados em estudar a relação entre a proproção de tempo em que o caixa está ocupado ao longo do dia ($W$) com a proporção de tempo em que o terminal de autoatendimento está em uso ($Z$).  
-* A proporção de tempo em que o terminal de autoatendimento está em uso ($W$) pode estar relacionada com a proporção de tempo que o caixa está atendendo ($Z$)?  
+**Exemplo 2**: Após a adoção do autoatendimento em uma rede de lanchonetes, os administradores estão interessados em estudar a relação entre a proproção de tempo em que o caixa está ocupado ao longo do dia ($Y$) com a proporção de tempo em que o terminal de autoatendimento está em uso ($X$).  
+* A proporção de tempo em que o terminal de autoatendimento está em uso ($X$) pode estar relacionada com a proporção de tempo que o caixa está atendendo ($Y$)?  
 * A relação entre $Z$ e $W$ tende a ser direta ou indireta (inversa)? Linear?
 
 
