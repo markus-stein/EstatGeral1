@@ -31,17 +31,13 @@ Continuamos estudando o comportamento de mais de uma variável aleatória, $X, Y
 
 ### 1. O caso de duas variáveis $X$ e $Y$ discretas (seção 8.2, Livro Bussab e Morettin)
 
-Definição **Função massa de probabilidade condicional**: ...
-<!-- Seja $(X, Y)$ um vetor aleatório discreto, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por  -->
-<!-- $$p(x, y) = P([X=x] \cap [Y=y]).$$    -->
-<!-- * *propriedades*: (1) $0 \leq p(x,y) \leq 1$; (2) $\sum_x \sum_y p(x,y) = 1$.    -->
+**(cont.) Exemplo 1**: Na esquisa de opinião com *toda uma população*, qual a probabilidade de uma pessoa escolhida ao acaso da população ter opinião de desempenho ótimo do atual governo ($Y$) **dado** que a pessoa estudou em escola pública? Ou **dado** que a pessoa tenha escolaridade de 10 anos de estudo ($Z$)?  
 
-<!-- b. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin) -->
+Definição **Função massa de probabilidade condicional**: Seja $(X, Y)$ um vetor aleatório discreto, a f.m.p. condicional de $Y=y$ dado $X=x$, tal que $p(x) = P(X=x)>0$, é definida para cada par $(x, y)$ por 
+$$P \left( \left. Y=y \right| X=x \right) = \frac{P(X=x,Y=y)}{P \left( X=x\right)}.$$   
 
-<!-- Definição **Funções massa de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório discreto, as f.m.p. marginais de $X$ e $Y$ são dadas respectivamente por  -->
-<!-- $$p(x) = \sum_y p(x, y) \text{ e } p(y) = \sum_x p(x, y).$$ -->
-<!-- $p(x)$ e $p(y)$ seguem as mesmas propriedades de uma f.m.p. -->
-
+* Da mesma forma definimos $P \left( \left. X=x \right| Y=y \right)$.
+* Funções condicionais são distribuições de probabilidade, portanto  seguem as mesma propriedades de f.m.p. marginais.
 
 ### 2. O caso de duas variáveis $X$ e $Y$ **contínuas** (seção 8.6, Livro Bussab e Morettin)
 
