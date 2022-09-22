@@ -85,7 +85,7 @@ $$f(x) = \int_{-\infty}^{\infty} f(x, y) dy \text{ e } f(y) = \int_{-\infty}^{\i
 ## 3. Variáveis aleatória **independentes**
 Sabemos que dois conjuntos $A$ e $B$, definidos no mesmo espaço amostral $S$ de um experimento aleatório $E$, são independentes se e somente se $P(A \cap B) = P(A) \times P(B)$. Para v.a. temos
 
-Definição **Variáveis aleatórias independentes**: Duas v.a. são independentes se para cada par de valores $x$ e $y)$, temos 
+Definição **Variáveis aleatórias independentes**: Duas v.a. são independentes se para cada par de valores $x$ e $y$, temos 
 
 $$p(x,y) = p(x) \times p(y), \text{ se } (X,Y) \text{ é um vetor aleatório discreto,}$$
 ou
