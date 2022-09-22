@@ -55,10 +55,11 @@ $$f_{ \left.Y \right| X} \left( \left. y \right| x \right) = \frac{f(x,y)}{f_X \
 Definição **Esperança condicional**: A esperança condicional de $Y$ dado que $X=x$ é dada por   
 $$ E \left( \left. Y \right| X=x \right) = \sum_y y \times P \left( \left. Y=y \right| X=x \right), \text{ se } (X,Y) \text{ é um vetor aleatório discreto,}$$
 ou
-$$ E \left( \left. Y \right| X=x \right) = \int_y y \times P \left( \left. Y=y \right| X=x \right), \text{ se } (X,Y) \text{ é um vetor aleatório contínuo}.$$
+$$ E \left( \left. Y \right| X=x \right) = \int_{-\infty}^{\infty} y \cdot f_{ \left. Y \right| X} \left( \left. y \right| x \right), \text{ se } (X,Y) \text{ é um vetor aleatório contínuo}.$$
 
 * Definição análoga para $E \left( \left. X \right| Y=y \right)$.
-* *Propriedades*: ver página 127 das "Notas de Aula MAT02214 - Estatística Geral I".
+* *Propriedades*: Se $X$ e $Y$ são independentes, então $E \left( \left. Y \right| X=x \right) = E \left( Y \right)$ e $E \left( \left. X \right| Y=y \right) = E \left( X \right)$. 
+    + Mais propriedades ver página 127 das "Notas de Aula MAT02214 - Estatística Geral I".
 
 
 ## Variância Condicional
@@ -66,6 +67,9 @@ $$ E \left( \left. Y \right| X=x \right) = \int_y y \times P \left( \left. Y=y \
 Definição **Variância condicional**: A variância condicional de $Y$ dado que $X=x$ é dada por   
 $$ Var \left( \left. Y \right| X=x \right) = E \left\{ \left[ Y - E \left(  \left. Y \right| x \right) \right]^2 \left. \right| X=x  \right\}.$$
     
+* Definição análoga para $Var \left( \left. X \right| Y=y \right)$.
+* *Propriedade*: Se $X$ e $Y$ são independentes, então $Var \left( \left. Y \right| X=x \right) = Var \left( Y \right)$ e $Var \left( \left. X \right| Y=y \right) = Var \left( X \right)$. 
+
 \vspace{0.5cm}
 
 ***
