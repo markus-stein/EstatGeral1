@@ -31,7 +31,7 @@ Continuamos estudando o comportamento de mais de uma variável aleatória, $X, Y
 
 ### 1. O caso de duas variáveis $X$ e $Y$ discretas (seção 8.2, Livro Bussab e Morettin)
 
-**(cont.) Exemplo 1**: Na esquisa de opinião com *toda uma população*, qual a probabilidade de uma pessoa escolhida ao acaso da população ter opinião de desempenho ótimo do atual governo ($Y$) **dado** que a pessoa estudou em escola pública? Ou **dado** que a pessoa tenha escolaridade de 10 anos de estudo ($Z$)?  
+**(cont.) Exemplo 1**: Na pesquisa de opinião com *toda uma população*, qual a probabilidade de uma pessoa escolhida ao acaso da população ter opinião de desempenho ótimo do atual governo ($Y$) **dado** que a pessoa estudou em escola pública? Ou **dado** que a pessoa tenha escolaridade de 10 anos de estudo ($Z$)?  
 
 Definição **Função massa de probabilidade condicional**: Seja $(X, Y)$ um vetor aleatório discreto, a f.m.p. condicional de $Y=y$ dado $X=x$, tal que $p(x) = P(X=x)>0$, é definida para cada par $(x, y)$ por 
 $$P \left( \left. Y=y \right| X=x \right) = \frac{P(X=x,Y=y)}{P \left( X=x\right)}.$$   
@@ -53,14 +53,18 @@ $$f_{ \left.Y \right| X} \left( \left. y \right| x \right) = \frac{f(x,y)}{f_X \
 ## Esperança Condicional. 
 
 Definição **Esperança condicional**: A esperança condicional de $Y$ dado que $X=x$ é dada por   
-$$ E \left( \left. Y \right| X=x \right) = \sum_y y \times P \left( \left. Y=y \right| X=x \right).$$
+$$ E \left( \left. Y \right| X=x \right) = \sum_y y \times P \left( \left. Y=y \right| X=x \right), \text{ se } (X,Y) \text{ é um vetor aleatório discreto,}$$
+ou
+$$ E \left( \left. Y \right| X=x \right) = \int_y y \times P \left( \left. Y=y \right| X=x \right), \text{ se } (X,Y) \text{ é um vetor aleatório contínuo}.$$
 
 * Definição análoga para $E \left( \left. X \right| Y=y \right)$.
-
+* *Propriedades*: ver página 127 das "Notas de Aula MAT02214 - Estatística Geral I".
 
 
 ## Variância Condicional
 
+Definição **Variância condicional**: A variância condicional de $Y$ dado que $X=x$ é dada por   
+$$ Var \left( \left. Y \right| X=x \right) = E \left\{ \left[ Y - E \left(  \left. Y \right| x \right) \right]^2 \left. \right| X=x  \right\}.$$
     
 \vspace{0.5cm}
 
