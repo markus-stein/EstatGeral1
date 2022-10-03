@@ -36,9 +36,9 @@ Relembrar:
 
 * Vetores Aleatórios
     + definição de vetores aleatórios: discretos e contínuos;
-    + função massa conjunta; função densidade conjunta; Função de distribuição conkunta;
+    + função massa conjunta; função densidade conjunta; função de distribuição conjunta;
     + Covariância, correlação. Variáveis aleatórias independentes;
-    + função massa condicional; função densidade condicional; Função de distribuição condicional;
+    + função massa condicional; função densidade condicional; função de distribuição condicional;
     + Esperança e variância condicional;
 
 
