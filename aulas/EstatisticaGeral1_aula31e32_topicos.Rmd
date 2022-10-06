@@ -1,0 +1,64 @@
+---
+title: "Plano Aula 31 e 32"
+# author: "Markus Stein"
+# date: "01 February 2021"
+output: pdf_document
+    # toc: yes
+header-includes:
+    - \usepackage{fancyhdr}
+always_allow_html: yes
+---
+\addtolength{\headheight}{1.0cm}
+\pagestyle{fancyplain} 
+\lhead{\includegraphics[height=1.5cm]{logoIME.png}}
+\rhead{\includegraphics[height=1.5cm]{images.jpg}}
+\chead{UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
+DEPARTAMENTO DE ESTATÍSTICA \\
+\vspace{0.3cm}
+MAT02214 - Estatística Geral 1 - 2022/1
+}
+\renewcommand{\headrulewidth}{0pt} 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Prova 3
+
+Relembrar:
+
+* Variáveis Aleatórias Contínuas
+    + definição de variáveis aleatórias contínuas;
+    + função densidade de probabilidade e função de distribuição, propriedades;
+    + esperança e variância, propriedades;
+    + modelos de distribuição de probabilidade; Uniforme; Exponencial; Normal.
+
+* Vetores Aleatórios
+    + definição de vetores aleatórios: discretos e contínuos;
+    + função massa conjunta; função densidade conjunta; função de distribuição conjunta;
+    + Covariância, correlação. Variáveis aleatórias independentes;
+    + função massa condicional; função densidade condicional; função de distribuição condicional;
+    + Esperança e variância condicional;
+
+
+\vspace{0.5cm}
+
+Usar o **formulário** para resolução das questões.
+
+\vspace{0.5cm}
+
+**Boa avaliação!!!**
+
+<!-- \vspace{0.5cm} -->
+
+***
+## Rever planos de aula, slides/vídeos e listas de exercícios da área 3.
+## Fazer o simulado para a prova 3 - VALE PONTO EXTRA!!!
+## Prova 3 no próximo sábado!!!
+***  
+
+\vspace{1.0cm}
+
+## Exercícios resolvidos
+Vídeos no canal do youtube da disciplina "Probabilidade e Estatística (EAD)" em https://youtube.com/playlist?list=PLovxQRJ6ihimCFe4EbeAC0wysDTtt7ln8 

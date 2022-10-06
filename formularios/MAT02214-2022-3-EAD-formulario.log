@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.3)  22 SEP 2022 17:03
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.22)  22 SEP 2022 16:11
+>>>>>>> fc67d471f262297e7baf6b5c7e7a63def7892185
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.

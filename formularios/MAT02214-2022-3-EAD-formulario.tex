@@ -59,7 +59,7 @@
 UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
 INSTITUTO DE MATEMÁTICA E ESTATÍSTICA\\
 DEPARTAMENTO DE ESTATÍSTICA\\
-MAT02219 - PROBABILIDADE E ESTATÍSTICA}\\
+MAT02214 - ESTATÍSTICA GERAL 1}\\
 \vspace*{0.1cm}{\bf ÁREA 3}
 \end{center}
 \pagenumbering{arabic}
@@ -100,9 +100,9 @@ MAT02219 - PROBABILIDADE E ESTATÍSTICA}\\
 {\bf FORMULÁRIO}
 \end{center}
 
-\textbf{Variáveis aleatórias}
+\textbf{(cont.) Variáveis aleatórias}
 
-% \begin{itemize}%\setlength{\itemsep}{+1mm}
+ \begin{itemize}%\setlength{\itemsep}{+1mm}
 % \item Seja $X$ uma {\bf variável aleatória (v.a.) discreta} ($X$ assume valores em $\{x_1,x_2,\ldots\}$), então o {\bf valor esperado} (média) e a {\bf variância} de $X$, são, respectivamente:
 % $$
 % \mu = \E[X] = \sum_{j=1}^{\infty}{x_j p(x_j)}\quad\mbox{e}\quad \sigma^2 = \Var[X] = \E[(X - \mu)^2] = \sum_{j=1}^{\infty}{(x_j - \mu)^2 p(x_j)} = \E[X^2] - \mu^2,
@@ -111,7 +111,7 @@ MAT02219 - PROBABILIDADE E ESTATÍSTICA}\\
 % \begin{itemize}
 % \item[$\bigstar$] Se $X$ {\bf assumir apenas um número finito de valores}, as expressões acima tornam-se $\E[X] = \sum_{j=1}^{n}{x_j p(x_j)}$, $\Var[X] = \sum_{j=1}^{n}{(x_j - \mu)^2 p(x_j)}$ e $\E[X^2] = \sum_{j=1}^{n}{x_j^2 p(x_j)}$.
 % \end{itemize}
-\item Se $X$ é {\bf v.a. contínua}, então o valor esperado (média) e a variância de $X$, são, respectivamente:
+\item Se $X$ é {\bf variável aleatória (v.a.) contínua}, então o valor esperado (média) e a variância de $X$, são, respectivamente:
 $$
 \mu = \E[X] = \int_{-\infty}^{\infty}{xf(x)dx}\quad\mbox{e}\quad \sigma^2 = \Var[X] = \E[(X - \mu)^2] = \int_{-\infty}^{\infty}{(x - \mu)^2 f(x)dx} = \E[X^2] - \mu^2,
 $$
@@ -170,22 +170,41 @@ $t{\rm -Student}(\nu)$ & $\displaystyle{\frac{\Gamma((\nu+1)/2)}{\Gamma(\nu/2)\s
 \end{tabular}
 \end{table*}
 
-\textbf{Correlação e regressão linear}
+\textbf{Vetores Aleatórios}
 
 \begin{itemize}
-\item O coeficiente de correlação linear amostral entre $X$ e $Y$ é dado por $\displaystyle{r = \frac{S_{XY}}{\sqrt{S_{XX}S_{YY}}}}$, em que 
-$$
-S_{XX} = \sum_i{x_i^2} - (\sum_i{x_i})^2/n, \qquad S_{YY} = \sum_i{y_i^2} - (\sum_i{y_i})^2/n \qquad \mbox{ e } \quad  S_{XY} = \sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n.
-$$
-\begin{itemize}
-\item[$\bigstar$] Seja $\rho$ o coeficiente de correlação linear populacional, para testar $H_0: \rho = 0 \times H_A: \rho \neq 0$, é usada a estatística de teste $T = \frac{r\sqrt{n - 2}}{\sqrt{1 - r^2}}$, que tem distribuição $t_{n-2}$.
-\end{itemize}
-\item Considere o modelo de regressão linear $Y = \beta_0 + \beta_1 X + \varepsilon$. Os estimadores de $\beta_0$ e $\beta_1$, denotados por $b_0$ e $b_1$, são dados por
-$$
-b_1 = \frac{\sum_i{x_iy_i} - [(\sum_i{x_i})(\sum_i{y_i})]/n}{\sum_i{x_i^2} - (\sum_i{x_i})^2/n}\ \mbox{e}\ b_0 = \bar{Y} - b_1\bar{X}.
-$$
-\begin{itemize}
-\item[$\bigstar$] Para testar $H_0: \beta_1 = 0 \times H_A: \beta_1 \neq 0$, é usada a estatística de teste $T = \frac{b_1}{S_{b1}}$, em que $S_{b1} = \sqrt{\frac{S^2}{S_{XX}}}$ e $S^2 = \frac{S_{YY} - b_1S_{XY}}{n - 2}$; $T$ tem distribuição $t_{n-2}$.
-\end{itemize}
+    \item Se $X$ e $Y$ são duas {\bf v.a. discretas}, então as {\bf funções massa de probabilidade marginas} são dadas por 
+    $$p(x) = \sum_y p(x, y) \text{ e } p(y) = \sum_x p(x, y).$$
+    em que $p(x, y) = P([X=x] \cap [Y=y])$ é a {\bf função massa de probabilidade conjunta} do vetor aleatório discreto $(X, Y)$.
+    
+    \item Se $X$ e $Y$ são duas {\bf v.a. contínuas}, então as {\bf funções densidade de probabilidade marginas} são dadas por 
+    $$f(x) = \int_{-\infty}^{\infty} f(x, y) dy \text{ e } f(y) = \int_{-\infty}^{\infty} f(x, y) dx.$$
+    em que $f(x, y)$, para $P( a \leq x \leq b, c \leq y \leq d) = \int_a^b \int_c^d f(x,y) dx dy.$, é a {\bf função densidade de probabilidade conjunta} do vetor aleatório contínuo $(X, Y)$.
+
+    \item A {\bf covariância} entre $X$ e $Y$ é dada por 
+    $$Cov(X,Y) = E \left[ (X - EX) (Y - EY) \right],$$ 
+    ou
+    $$Cov(X,Y) = E \left[ X Y \right] - E(X) E(Y),$$
+    se $E(X)$, $E(Y)$, $Var(X)$ e $Var(Y)$ existem e são finitas.
+
+    \item A {\bf correlação} entre $X$ e $Y$ é dado por 
+    $$\rho(X,Y) = \frac{ Cov(X,Y)}{ \sqrt{Var(X)Var(Y)}},$$ 
+    se $E(X)$, $E(Y)$, $Var(X)$ e $Var(Y)$ existem e são finitas.
+
+    \item A {\bf esperança condicional} de $Y$ dado $X=x$ é definida por 
+    \begin{itemize}
+        \item[$\bigstar$] $E \left( \left. Y \right| X=x \right) = \sum_y y \times P \left( \left. Y=y \right| X=x \right)$, se $X$ e $Y$ são v.a. discretas,
+    \end{itemize}
+    em que $P \left( \left. Y=y \right| X=x \right) = \frac{P(X=x,Y=y)}{P \left( X=x\right)}$ é a {\bf função massa de probabilidade condicional} de $Y=y$ dado $X=x$, para $p(x) = P(X=x)>0$
+    
+    ou
+
+    \begin{itemize}
+        \item[$\bigstar$] $E\left( \left. Y \right| X=x \right) = \int_{-\infty}^{\infty} y \cdot f_{ \left. Y \right| X} \left( \left. y \right| x \right)$ se $X$ e $Y$ são v.a. contínuas.
+    \end{itemize}
+    em que $f_{ \left.Y \right| X} \left( \left. y \right| x \right) = \frac{f(x,y)}{f_X \left( x \right)}$ é a {\bf função densidade de probabilidade condicional} de $Y=y$ dado $X=x$, para $f(x) > 0$.
+
+\item A {\bf variância condicional} de $Y$ dado que $X=x$ é dada por
+$$ Var \left( \left. Y \right| X=x \right) = E \left\{ \left[ Y - E \left(  \left. Y \right| x \right) \right]^2 \left. \right| X=x  \right\}.$$
 \end{itemize}
 \end{document}
