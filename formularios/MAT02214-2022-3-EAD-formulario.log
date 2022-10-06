@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.3)  22 SEP 2022 17:03
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.22)  22 SEP 2022 16:11
->>>>>>> fc67d471f262297e7baf6b5c7e7a63def7892185
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.9.22)  6 OCT 2022 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -65,7 +61,7 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 \bbl@dirlevel=\count177
 )
 Package babel Info: \l@brazil = using hyphenrules for portuguese
-(babel)             (\language68) on input line 113.
+(babel)             (\language10) on input line 113.
 Package babel Info: Making " an active character on input line 145.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
@@ -547,26 +543,15 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 53.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
+114.
 
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 \item S
-             e $X$ é {\bf v.a. contínua}, então o valor esperado (média)...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 114
-[][]
- []
-
+(/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
+)
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
  114.
+
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
@@ -600,65 +585,15 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 114.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 114.
-
-Overfull \hbox (6.22935pt too wide) in paragraph at lines 120--121
-[]\T1/futs/m/n/10 Se $\FML/futmi/m/it/10 X$ \T1/futs/b/n/10 as-su-mir ape-nas v
-a-lo-res em um in-ter-valo $\FML/futmi/m/it/10 S[] \FMS/futm/m/n/10 ^^Z \U/futm
-/m/n/10 R$\T1/futs/m/n/10 , as ex-pres-s�es acima tornam-se $E [\FML/futmi/m/it
-/10 X\T1/futs/m/n/10 ] \FMS/futm/m/n/10 � [][] []$\T1/futs/m/n/10 ,
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 \item S
-             eja $X$ uma variável aleatória, então $F(x) = \Pr(X\leq x)$ ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 122
-[][]
- []
-
-
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 \end{itemize}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.127 \end{itemize}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
-136.
-(/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-) [1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./MAT02214-2022-3-EAD
 -formulario.aux) ) 
 Here is how much of TeX's memory you used:
- 5708 strings out of 481239
- 74429 string characters out of 5920378
- 338351 words of memory out of 5000000
- 20829 multiletter control sequences out of 15000+600000
+ 5707 strings out of 481239
+ 74424 string characters out of 5920377
+ 336351 words of memory out of 5000000
+ 20828 multiletter control sequences out of 15000+600000
  566099 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,34p,357b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -672,7 +607,7 @@ t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb>
-Output written on MAT02214-2022-3-EAD-formulario.pdf (2 pages, 76108 bytes).
+Output written on MAT02214-2022-3-EAD-formulario.pdf (2 pages, 78147 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
