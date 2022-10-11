@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.22)  11 OCT 2022 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.22)  11 OCT 2022 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**EstatisticaGeral1_aula09e10_topicos.tex
-(./EstatisticaGeral1_aula09e10_topicos.tex
+**EstatisticaGeral1_aula33e34_topicos.tex
+(./EstatisticaGeral1_aula33e34_topicos.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-30> (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -350,8 +350,8 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box54
-) (./EstatisticaGeral1_aula09e10_topicos.aux)
-\openout1 = `EstatisticaGeral1_aula09e10_topicos.aux'.
+) (./EstatisticaGeral1_aula33e34_topicos.aux)
+\openout1 = `EstatisticaGeral1_aula33e34_topicos.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
@@ -463,23 +463,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 101.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 94.
 (c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 172.
-(c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-<logoIME.png, id=5, 521.95pt x 226.8475pt>
+<logoIME.png, id=4, 521.95pt x 226.8475pt>
 File: logoIME.png Graphic file (type png)
 <use logoIME.png>
-Package pdftex.def Info: logoIME.png  used on input line 188.
+Package pdftex.def Info: logoIME.png  used on input line 181.
 (pdftex.def)             Requested size: 98.19987pt x 42.67917pt.
-<images.jpg, id=6, 198.14024pt x 92.14426pt>
+<images.jpg, id=5, 198.14024pt x 92.14426pt>
 File: images.jpg Graphic file (type jpg)
 <use images.jpg>
-Package pdftex.def Info: images.jpg  used on input line 188.
+Package pdftex.def Info: images.jpg  used on input line 181.
 (pdftex.def)             Requested size: 91.77446pt x 42.6793pt.
 
 Package fancyhdr Warning: \headheight is too small (40.45274pt): 
@@ -490,20 +486,38 @@ Package fancyhdr Warning: \headheight is too small (40.45274pt):
 
 [1{c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./LogoIME.png> <./images.jpg>] (./EstatisticaGeral1_aula09e10_topicos.aux) ) 
+ <./LogoIME.png> <./images.jpg>]
+File: logoIME.png Graphic file (type png)
+<use logoIME.png>
+Package pdftex.def Info: logoIME.png  used on input line 252.
+(pdftex.def)             Requested size: 98.19987pt x 42.67917pt.
+File: images.jpg Graphic file (type jpg)
+<use images.jpg>
+Package pdftex.def Info: images.jpg  used on input line 252.
+(pdftex.def)             Requested size: 91.77446pt x 42.6793pt.
+
+Package fancyhdr Warning: \headheight is too small (40.45274pt): 
+(fancyhdr)                Make it at least 55.02469pt, for example:
+(fancyhdr)                \setlength{\headheight}{55.02469pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.57195pt}.
+
+[2
+
+] (./EstatisticaGeral1_aula33e34_topicos.aux) ) 
 Here is how much of TeX's memory you used:
- 13112 strings out of 477015
- 212294 string characters out of 5825858
- 591646 words of memory out of 5000000
- 34006 multiletter control sequences out of 15000+600000
- 505125 words of font info for 75 fonts, out of 8000000 for 9000
+ 13081 strings out of 477015
+ 211585 string characters out of 5825858
+ 591831 words of memory out of 5000000
+ 33971 multiletter control sequences out of 15000+600000
+ 501791 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 74i,15n,81p,1032b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on EstatisticaGeral1_aula09e10_topicos.pdf (1 page, 177708 bytes).
+ 74i,15n,81p,1032b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
+Output written on EstatisticaGeral1_aula33e34_topicos.pdf (2 pages, 155014 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 22579 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 20563 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -1,0 +1,94 @@
+---
+title: "Plano Aula 33 e 34"
+# author: "Markus Stein"
+# date: "01 February 2021"
+output: pdf_document
+    # toc: yes
+header-includes:
+    - \usepackage{fancyhdr}
+always_allow_html: yes
+---
+\addtolength{\headheight}{1.0cm}
+\pagestyle{fancyplain} 
+\lhead{\includegraphics[height=1.5cm]{logoIME.png}}
+\rhead{\includegraphics[height=1.5cm]{images.jpg}}
+\chead{UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
+DEPARTAMENTO DE ESTATÍSTICA \\
+\vspace{0.3cm}
+MAT02214 - Estatística Geral 1 - 2022/1
+}
+\renewcommand{\headrulewidth}{0pt} 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Período para Exame
+
+Para quem ainda não atingiu média ponderada das avaliações (ler plano de ensino) igual ou superior a **seis**:  
+
+* Revisar os principais conteúdos do semestre:
+
+### Área 1
+* Introdução
+    + população e amostra;
+    + tipos de estudos;
+    + amostragem;
+
+* Estatística Descritiva:
+    + distribuição de frequências;
+    + tabelas e gráficos, normas;
+    + medidas descritivas e propriedades;
+    + análise exploratória, boxplot.
+
+* Correlação Linear 
+    + coeficiente de correlação linear;
+    + correlação espúria, causalidade e correlação.
+
+\vspace{1.0cm}
+
+### Área 2
+* Probabilidade:
+    + modelos determinísticos e probabilísticos;
+    + experimento, espaco amostral, eventos e álgebra;
+    + definições de probabilidade, axiomas e propriedades;
+    + probabilidade condicional e independência;
+    + teoremas da probabilidade total e de Bayes.
+    
+* Variáveis Aleatórias
+    + definição, variáveis aleatórias discretas;
+    + distribuição de probabilidade e função de distribuição, propriedades;
+    + esperança e variância, propriedades;
+    + modelos de distribuição de probabilidade; binomial, hipergeométrica e Poisson.
+
+\clearpage
+
+### Área 3
+* Variáveis Aleatórias Contínuas
+    + definição de variáveis aleatórias contínuas;
+    + função densidade de probabilidade e função de distribuição, propriedades;
+    + esperança e variância, propriedades;
+    + modelos de distribuição de probabilidade; Uniforme; Exponencial; Normal.
+
+* Vetores Aleatórios
+    + definição de vetores aleatórios: discretos e contínuos;
+    + função massa conjunta; função densidade conjunta; função de distribuição conjunta;
+    + Covariância, correlação. Variáveis aleatórias independentes;
+    + função massa condicional; função densidade condicional; função de distribuição condicional;
+    + Esperança e variância condicional;
+
+\vspace{1.0cm}
+
+### Refazer as avaliações.
+
+### Fazer o **simulado** para o exame.
+
+### Ter os **formulários** em mãos.
+
+\vspace{1.0cm}
+
+***
+### Boas férias a(o)s aprovada(o)s!
+### Bom exame a(o)s ainda não aprovada(o)s!
+***

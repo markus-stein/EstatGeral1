@@ -47,7 +47,8 @@ Relembrar:
     + análise exploratória, boxplot.
 
 * Correlação Linear 
-    + Correlação espúria, causalidade e correlação
+    + coeficiente de correlação linear;
+    + Correlação espúria, causalidade e correlação.
 
 \vspace{0.5cm}
 
