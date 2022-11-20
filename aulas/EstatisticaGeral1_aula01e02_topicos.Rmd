@@ -16,7 +16,7 @@ always_allow_html: yes
 INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
 DEPARTAMENTO DE ESTATÍSTICA \\
 \vspace{0.3cm}
-MAT02214 - Estatística Geral 1 - 2022/1
+MAT02214 - Estatística Geral 1 - 2022/2
 }
 \renewcommand{\headrulewidth}{0pt} 
 
@@ -115,6 +115,6 @@ Veremos critérios para calcular tamanhos de amostras em Estatística Geral 2.
 
 ### Material do site da disciplina "Probabilidade e Estatística EAD"
 
-* Em http://ufrgs.br/probabilidade-estatistica. Nas abas slides, videos e listas vocês encontram o material que vem sendo usado nas turmas EAD da disciplina. 
+* Em http://ufrgs.br/probabilidade-estatistica. Nas abas **slides**, **videos** e **listas** vocês encontram o material que vem sendo usado nas turmas EAD da disciplina. 
 
-* Na aba livro e slides do livro temos um material que vem sendo traduzido e fica como referência pelos códigos em R, além de uma linguagem e exemplos talvez mais atualizados.
+* Na aba **livro** e **slides do livro** temos um material que vem sendo traduzido e fica como referência pelos códigos em R, além de uma linguagem e exemplos talvez mais atualizados.
