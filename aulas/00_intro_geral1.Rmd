@@ -1,0 +1,365 @@
+---
+title: "MAT02214 - Estatística Geral 1"
+subtitle: "Aula 00 - Apresentações"
+type: "lecture"
+author: "Markus Stein"
+institute: "Departamento de Estatística, IME/UFRGS"
+date: "2024/1"
+output:
+  xaringan::moon_reader:
+    # css: ["assets/remark.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      titleSlideClass: [center, middle]
+---
+
+class: inverse, middle, center
+
+```{r libs, echo=FALSE, message=FALSE, warning=FALSE}
+library(xaringanExtra)
+library(emo)
+library(fontawesome)
+```
+
+
+```{r xaringan-logo, echo=FALSE}
+# install.packages("remotes")
+# remotes::install_github('yihui/xaringan')
+# remotes::install_github("gadenbuie/xaringanExtra")
+# xaringanExtra::use_logo(
+#   image_url = "https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/xaringan.png"
+# )
+use_logo( here::here('image_geral1.jpg'))
+```
+
+# Apresentações
+
+---
+
+
+## O professor esse semestre
+* Eu! 
+
+.center[
+<iframe src="https://giphy.com/embed/3owzWkGtQ3us1pV0qc" width="480" height="206" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-movie-star-wars-3owzWkGtQ3us1pV0qc">via GIPHY</a></p>
+]
+
+---
+
+## O professor esse semestre
+### Minha experiência com Estatística `r emo::ji("professor")` 
+
+* Graduação em Estatística em **2006** aqui no DEst, título da monografia *Estudos de Correlação Ecológica - Uma aplicação a dados de saúde em Porto Alegre.*;
+
+* Mestrado em Estatística na **UFMG** com conclusão em **2008**: dissertação intitulada _Testes da Razão de Verossimilhanças em Modelos Lineares Mistos_.
+
+* Ingressei na **UFPEL** em **2009** como Professor Assistente no **Departamento de Matemática e Estatística**.
+
+* Em novembro de **2010** voltei para o **DEst**, onde estou como docente desde então.
+
+---
+
+## O professor nesse semestre
+### Minha experiência com Estatística `r emo::ji("professor")[1]`
+
+* Em **2013** fui contemplado com bolsa de estudos e cursei o Doutorado em Estatística da __Universidade de Auckland__, Nova Zelândia; porém não concluí a tese, intitulada provisóriamente *Combining aggregate and individual level data in contingency tables*.
+
+* Continuo minha formação de Doutorado em **2023** no **Programa de Pós-Graduação em Epidemiologia** da UFRGS.
+
+* Meus interesses de pesquisa são: **inferência paramétrica**; **teoria de verossimilhança e aproximações**, **melhoramentos de testes de hipóteses**, **equações de estimação ponderadas e amostragem complexa**.
+
+* Em estatística aplicada: **modelos mistos**, **dados (correlacionados) de área e/ou longitudinais**.  `r emo::ji("stats")`
+
+---
+
+## E sobre vocês? `r emo::ji("student")[1]`
+### Sugestões
+
+* Qual o seu nome/curso?  
+
+* Etapa do curso?
+
+* Quantas/quais disciplinas nesse semestre?  
+
+* O que é estatística/probabilidade?  
+
+* O que espera da disciplina?
+
+* Possui alguma experiência profisional na área?
+
+* Qual sua cidade?
+
+---
+
+## A disciplina
+### Objetivos `r emo::ji("target")`
+
+- Ensinar que a **Estatística** é um conjunto de técnicas e também uma linguagem
+
+    + Quando e como estas técnicas descritivas podem ser utilizadas
+    + Aplicações das técnicas de estatística descritiva a problemas reais
+
+- Ensinar que a **Probabilidade** é a parte da Matemática utilizada no estudo dos fenômenos considerados aleatórios
+    + Noções básicas
+    + Aplicações elementares
+  
+---
+
+## A disciplina
+### Organização `r emo::ji("professor")`
+
+- __Disciplina:__ Estatística Geral 1
+
+- __Turma:__ E2
+
+- __Modalidade:__ Ensino presencial
+
+- __Professor:__ Markus Chagas Stein
+    + e-mail: `markus.stein@ufrgs.br` 
+    + Sala: B120 do IME
+
+- __Monitoria:__ pelo fórum no moodle da disciplina, _em breve monitor(a) se apresentará_
+
+---
+
+## A disciplina
+### Aulas e material didático `r emo::ji("notebook")`
+
+- __Aulas__ (teóricas e práticas)
+    + Exposição e __discussão__ dos conteúdos
+    + Exemplos
+
+- __Notas de aula__
+    + Rotinas em `R`
+     
+- __Slides__
+
+- __Listas de exercícios__ com respostas
+
+---
+
+## A disciplina
+### Aulas e material didático `r emo::ji("notebook")`
+
+- __Canais de comunicação:__
+    + Durante as aulas
+    + Moodle: aulas, materiais e __fórum geral__
+    + e-mail do professor
+
+* **Aulas**: terças e quintas, das 18hs 30min às 20hs 10min, na Sala F115 do Instituto de Química - Campus do Vale
+    + _18hs 45min:_ chegada
+    + _18hs 50min:_ início `r emo::ji("clock")`
+    + _20hs:_ fim/dúvidas
+    + _20hs 10min:_ saída
+
+* **Covid** e recomendaçoes.
+
+---
+
+## A disciplina
+### Tecnologias e Linguagem
+
+```{r echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width='55%', paged.print=FALSE}
+knitr::include_graphics('https://media.giphy.com/media/CEYYQNKO2HDoc/giphy.gif')
+```
+*Fonte: [ghipy.com](https://giphy.com/)*
+
+
+* Exemplos e exercícios com o apoio do computador:
+    + `r fa("r-project", fill = "steelblue")` e `RStudio`
+
+---
+
+## A disciplina
+### Tecnologias e Linguagem
+* `GitHub`, `.Rproj` e `.Rmd`.
+	+ revisão(?)
+
+
+### Porque usar `r fa("r-project", fill = "steelblue")`?
+* Aprendemos `r fa("r-project", fill = "steelblue")` para análises estatística, mas `r fa("r-project", fill = "steelblue")` é uma linguagem de programação (geral).
+
+* Ao contrário de linguagens específicas, como `SQL` para manipulação de bases de dados.
+
+* `r fa("r-project", fill = "steelblue")` foi criado na **Universidade de Auckland** em 1993,
+  + continua sendo uma das linguagens mais utilizadas porque sua comunidade cresce e desenvolve milhares de pacotes e produtos.
+
+* CRAN
+
+---
+
+## A disciplina
+
+### Ler o Plano de Ensino e Instruções Gerais `r emo::ji("document")`
+
+
+- Conteúdo programático `r emo::ji("document")`
+
+- Referências bibliográficas
+
+<!-- * __Área 1__ - *Amostragem Estratificada* -->
+<!--     + Características. Decomposição da variância total. Parâmetros. Composição dos estratos. Critérios de repartição da amostra. Estimadores. Erro padrão dos estimadores. Eficiência das repartições. Dimensionamento de amostras. -->
+
+<!-- * __Área 2__ - *Amostragem por conglomerados* -->
+<!--     + Características, as variâncias dentro e entre congloerados, comparação com estratos. Amostragem por conglomerados com etapa única, em duas etapas com sub-amostras de tamanhos iguais e tamanhos variáveis. Estimadores e tamanhos de amostras. -->
+
+<!-- * __Área 3__ -->
+<!--     + Amostragem sistemática, seleção de amostras  -->
+<!--     + Amostragem com probabilidades variáveis -->
+<!--     + Planos amostrais complexos -->
+
+---
+    
+## A disciplina
+### Avaliação `r emo::ji("bomb")`
+
+### Avaliações pontuais $(AP)$
+- Serão realizadas duas avaliações pontuais assíncronas por área, pelo moodle.
+- Valem __20%__ da nota final.
+
+### Avaliações parciais ou Provas $(P)$ `r emo::ji("warning")`
+- Serão realizadas três provas, ao final de cada área.
+- Instruções e formulário das provas serão disponibilizados antes das avaliações
+
+### Será realizado uma prova presencial e individual como atividade de recuperação $(PR)$
+    + Para os alunos que não atingirem o conceito mínimo
+    + __Esta prova abrange todo o conteúdo da disciplina__
+
+---
+
+## A disciplina
+### Avaliação `r emo::ji("mark")`
+
+$$
+MF = 0,8 \times (P1 + P2 + P3) / 3 + 0,2 \times (AP11 + AP12 + AP21 + AP22 + AP31 + AP32)/6
+$$
+
++ __A:__ $8,5 \leq MF \leq 10$
++ __B:__ $7 \leq MF < 8,5$
++ __C:__ $6 \leq MF < 7,5$
++ __D:__ $MF < 6$
++ __FF:__ se o aluno tiver frequência inferior a 75% da carga horária prevista no plano da disciplina
+
+---
+
+## A disciplina
+### Avaliação `r emo::ji("bomb")`
+
++ Se $MF < 6$ e frequência mínima de 75% o aluno poderá realizar a prova de recuperação e neste caso
+
+$$
+MF' = MF \times 0,4 + PR \times 0,6
+$$
+
+- __C:__ $MF' \geq 6$
+- __D:__ $MF' < 6$
+
+---
+
+## A disciplina
+### Datas das avaliações `r emo::ji("calendar")`
+
+* ÁREA 1
+  + PONTUAL 11 - XX/XX a XX/XX
+  + PONTUAL 12 - XX/XX a XX/XX
+  + PARCIAL 1 - XX/XX
+
+* ÁREA 2
+  + PONTUAL 21 - XX/XX a XX/XX
+  + PONTUAL 22 - XX/XX a XX/XX
+  + PARCIAL 2 - XX/XX
+
+* ÁREA 3
+  + PONTUAL 31 - XX/XX a XX/XX
+  + PONTUAL 32 - XX/XX a XX/XX
+  + PARCIAL 3 - XX/XX
+
+* RECUPERAÇÃO - XX/XX
+
+---
+
+class: inverse, middle, center
+
+# Dúvidas, sugestões, críticas, ...? `r emo::ji("question")[1]`
+
+---
+
+class: inverse, middle, center
+
+# O que é Estatística e Probabilidade?
+
+---
+
+## O que é Estatística Geral 1?
+
+### O que sabemos sobre Probabilidade e Estatística?  
+
+* Probabilidade e Estatística = introdução à:
+  + Estatística descritiva + 
+  + Teoria da probabilidade  
+
+### Dados e Variáveis (Aleatórias). Qual a população em estudo (variável)?  
+
+**Exemplo 1**: $X$: PIB do Brasil, $X \in \mathbb{R}$.
+
+**Exemplo 2**: $X$: avaliação do governo, positiva ou negativa, $X \in \{0, 1\}$.
+
+**Exemplo 3**: $Y$ (consumo) e $X$ (renda), ...
+
+---
+
+class: inverse, middle, center
+
+# Por fim
+
+---
+
+## Coisas que acredito...
+
+* Estatistica é uma disciplinas que pode diferenciar nosso curriculo 
+  + Auxiliar tomadas de decisão e 
+	+ formar cidadãos mais conscientes 
+
+* porque estudar essa disciplina?
+	+ estimular o pensamento critico sobre a obtencao dos dados
+	+ desenvolver analises e conclusoes rigorosamente seguindo a teoria
+	+ flexibilidade para trabalhar com dados na vida real
+
+<!-- --- -->
+
+<!-- ## Próxima aula -->
+
+<!-- Revisão de conceitos básicos da teoria de: -->
+
+<!-- * probabilidade, -->
+<!--   + definições, -->
+<!--   + variáveis aleatórias; -->
+
+<!-- * inferência, -->
+<!--   + estimação (pontual e intervalar), -->
+<!--   + teste de hipóteses; -->
+
+<!-- * __amostragem (1) aleatória simples (AAS)__, -->
+<!--   + parâmetros e estimadores, -->
+<!--   + AAS com e sem reposição -->
+<!--   + estimacao dos parametros e das variancias dos estimadores, viés, -->
+<!--   + resultados assintóticos, tcl,  -->
+<!--   + ICs e THs. -->
+
+---
+
+## Sejam bem-vinda(o)s!
+
+- site da disciplina Probabilidade e Estatística EAD: https://www.ufrgs.br/probabilidade-estatistica/
+
+- canal do youtube:
+https://www.youtube.com/c/ProbabilidadeeEstatísticaUFRGS
+
+### Dúvidas, sugestões, críticas, ... `r emo::ji("question")[1]`
+
+```{r echo=FALSE, fig.align='center', message=FALSE, warning=FALSE, out.width='30%', out.height='30%', paged.print=FALSE}
+knitr::include_graphics(here::here('aulas','image_geral1.jpg'))
+```

@@ -11,12 +11,12 @@ always_allow_html: yes
 \addtolength{\headheight}{1.0cm}
 \pagestyle{fancyplain} 
 \lhead{\includegraphics[height=1.5cm]{logoIME.png}}
-\rhead{\includegraphics[height=1.5cm]{images.jpg}}
+\rhead{\includegraphics[height=1.5cm]{image_geral1.jpg}}
 \chead{UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
 INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
 DEPARTAMENTO DE ESTATÍSTICA \\
 \vspace{0.3cm}
-MAT02214 - Estatística Geral 1 - 2022/2
+MAT02214 - Estatística Geral 1 - 2024/1
 }
 \renewcommand{\headrulewidth}{0pt} 
 
@@ -31,7 +31,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Apresentação da disciplina  
 * Ler o plano de ensino!!!  
-* Ler as informações no *moodle*!!!
+* Mais informações no *moodle*!!!
 
 ### O que sabemos sobre Probabilidade e Estatística?  
 
