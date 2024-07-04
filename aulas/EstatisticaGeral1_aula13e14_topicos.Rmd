@@ -11,12 +11,12 @@ always_allow_html: yes
 \addtolength{\headheight}{1.0cm}
 \pagestyle{fancyplain} 
 \lhead{\includegraphics[height=1.5cm]{logoIME.png}}
-\rhead{\includegraphics[height=1.5cm]{images.jpg}}
+\rhead{\includegraphics[height=1.5cm]{image_geral1.jpg}}
 \chead{UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
 INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
 DEPARTAMENTO DE ESTATÍSTICA \\
 \vspace{0.3cm}
-MAT02214 - Estatística Geral 1 - 2022/2
+MAT02214 - Estatística Geral 1 - 2024/1
 }
 \renewcommand{\headrulewidth}{0pt} 
 
@@ -97,8 +97,8 @@ $$ P (\left. B_i \right| A) = \frac{P(B_i \cap A)}{P(A)} = \frac{P(B_i) \times P
 \vspace{2.0cm}
 
 ***
-## Ler slides e ver vídeos da semana 8.
-## Continuar lista de exercícios 2-1.
+## Ler slides e ver vídeos da semana 7.
+## Continuar lista de exercícios 2-1 e 2-2.
 ## Fazer a avaliação pontual 1 da área 2 - VALE NOTA!!!
 ***
 
