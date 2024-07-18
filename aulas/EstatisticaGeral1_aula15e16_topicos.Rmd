@@ -88,7 +88,7 @@ Definição **função de distribuição**: a função $F: \Omega_X \rightarrow 
 \vspace{0.5cm}
 
 ***
-## Ler slides e ver vídeos da semana 9.
+## Ler slides e ver vídeos da semana 8.
 ## Fazer lista de exercícios 2-3.
 <!-- ## Fazer o Quiz da semana 6 - VALE NOTA!!! -->
 ***  
