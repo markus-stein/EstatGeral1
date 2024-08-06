@@ -47,7 +47,7 @@ knitr::opts_chunk$set(echo = TRUE)
 \vspace{0.5cm}
 
 ***
-## Ler slides e ver vídeos da semana 11.
+## Ler slides e ver vídeos da semana 12.
 ## Fazer lista de exercícios 2-4.
 ## Realizar a avaliação pontual 1 da área 3 - EM BREVE!!! 
 ***  
