@@ -11,12 +11,12 @@ always_allow_html: yes
 \addtolength{\headheight}{1.0cm}
 \pagestyle{fancyplain} 
 \lhead{\includegraphics[height=1.5cm]{logoIME.png}}
-\rhead{\includegraphics[height=1.5cm]{images.jpg}}
+\rhead{\includegraphics[height=1.5cm]{image_geral1.jpg}}
 \chead{UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
 INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
 DEPARTAMENTO DE ESTATÍSTICA \\
 \vspace{0.3cm}
-MAT02214 - Estatística Geral 1 - 2022/2
+MAT02214 - Estatística Geral 1 - 2024/1
 }
 \renewcommand{\headrulewidth}{0pt} 
 
@@ -36,11 +36,13 @@ Definição **vetor aleatório discreto**: denotamos $(X, Y)$ um vetor aleatóri
 <!-- quando o espaço amostral associado a uma $v.a.$ puder assumir valores reais, $\Omega_X \subseteq \mathbb{R}$, ou infinito, denominamos v.a. contínua. -->
 
 **Exemplo 1**: Em uma pesquisa de opinião com *toda uma população*, estamos interessados na opinição quanto ao desempenho do atual governo, nas categorias péssimo, ruim, regular, bom e ótimo ($Y \in \{1,2,3,4,5\}$), em relação ao fato de o(a) respondente não ter cursado escola pública ou ter cursado ($X \in \{0,1\}$). Ou quanto aos anos de estudo ($Z \in \{1,2,\ldots\}$).  
+
 * Será que a opinião quanto ao desempenho do atual governo ($Y$) é o mesmo para os que não estudaram em escola pública ou estudaram ($X$)? E em relação a escolaridade ($Z$)?  
+
 * A relação entre $X$ e $Y$ tende a ser direta ou indireta (inversa)? E entre $Z$ e $Y$?
 
 
-a. Distribuição conjunta (seção 8.1, Livro Bussab e Morettin)
+### a. Distribuição conjunta (seção 8.1, Livro Bussab e Morettin)
 
 Definição **Função massa de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório discreto, a f.m.p. conjunta $p(x, y)$ é definida para cada par $(x, y)$ por 
 $$p(x, y) = P([X=x] \cap [Y=y]).$$   
@@ -48,7 +50,7 @@ $$p(x, y) = P([X=x] \cap [Y=y]).$$
 * *propriedades*: (1) $0 \leq p(x,y) \leq 1$; (2) $\sum_x \sum_y p(x,y) = 1.$   
 
 
-b. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin)
+### b. Distribuições Marginais (seção 8.2, Livro Bussab e Morettin)
 
 Definição **Funções massa de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório discreto, as f.m.p. marginais de $X$ e $Y$ são dadas respectivamente por 
 $$p(x) = \sum_y p(x, y) \text{ e } p(y) = \sum_x p(x, y).$$
@@ -66,7 +68,7 @@ Definição **vetor aleatório contínuo**: denotamos $(X, Y)$ um vetor aleatór
 * A relação entre $Z$ e $W$ tende a ser direta ou indireta (inversa)? Linear?
 
 
-a. Distribuição conjunta (pág. 225, seção 8.5, Livro Bussab e Morettin)
+### a. Distribuição conjunta (pág. 225, seção 8.5, Livro Bussab e Morettin)
 
 Definição **Função densidade de probabilidade conjunta**: Seja $(X, Y)$ um vetor aleatório contínuo, denominamos $f(x, y)$ a f.d.p. conjunta de $X$ e $Y$ se 
 $$P( a \leq x \leq b, c \leq y \leq d) = \int_a^b \int_c^d f(x,y) dx dy.$$   
@@ -74,7 +76,7 @@ $$P( a \leq x \leq b, c \leq y \leq d) = \int_a^b \int_c^d f(x,y) dx dy.$$
 * *propriedades*: (1) $f(x,y) > 0$; (2) $\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f(x,y) dx dy = 1$.
 
 
-b. Distribuições marginais (pág. 227, seção 8.5, Livro Bussab e Morettin)
+### b. Distribuições marginais (pág. 227, seção 8.5, Livro Bussab e Morettin)
 
 Definição **Funções densidade de probabilidade marginais**: Seja $(X, Y)$ um vetor aleatório contínuo, as f.d.p. marginais de $X$ e $Y$ são dadas respectivamente por 
 $$f(x) = \int_{-\infty}^{\infty} f(x, y) dy \text{ e } f(y) = \int_{-\infty}^{\infty} f(x, y) dx.$$
