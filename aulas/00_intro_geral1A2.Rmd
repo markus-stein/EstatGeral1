@@ -4,7 +4,7 @@ subtitle: "Aula 00 - Apresentações"
 type: "lecture"
 author: "Markus Stein"
 institute: "Departamento de Estatística, IME/UFRGS"
-date: "2024/1"
+date: "2025/2"
 output:
   xaringan::moon_reader:
     # css: ["assets/remark.css"]
@@ -99,7 +99,7 @@ use_logo( here::here('image_geral1.jpg'))
 
 - Ensinar que a **Estatística** é um conjunto de técnicas e também uma linguagem
 
-    + Quando e como estas técnicas descritivas podem ser utilizadas
+    + Quando e comotécnicas descritivas podem ser utilizadas
     + Aplicações das técnicas de estatística descritiva a problemas reais
 
 - Ensinar que a **Probabilidade** é a parte da Matemática utilizada no estudo dos fenômenos considerados aleatórios
@@ -113,7 +113,7 @@ use_logo( here::here('image_geral1.jpg'))
 
 - __Disciplina:__ Estatística Geral 1
 
-- __Turma:__ E2
+- __Turma:__ A2
 
 - __Modalidade:__ Ensino presencial
 
@@ -149,13 +149,13 @@ use_logo( here::here('image_geral1.jpg'))
     + Moodle: aulas, materiais e __fórum geral__
     + e-mail do professor
 
-* **Aulas**: terças e quintas, das 18hs 30min às 20hs 10min, na Sala F115 do Instituto de Química - Campus do Vale
-    + _18hs 45min:_ chegada
-    + _18hs 50min:_ início `r emo::ji("clock")`
-    + _20hs:_ fim/dúvidas
-    + _20hs 10min:_ saída
+* **Aulas**: terças e quintas, das 07hs 30min às 09hs 10min, na Sala 21 do prédio  Salas de Aula Campus Centro - 11209
+    + _07hs 25min:_ chegada
+    + _07hs 35min:_ início `r emo::ji("clock")`
+    + _09hs:_ fim/dúvidas
+    + _09hs 10min:_ saída
 
-* **Covid** e recomendaçoes.
+* Pandemias, eventos climáticos extremos e recomendaçoes.
 
 ---
 
@@ -216,8 +216,8 @@ knitr::include_graphics('https://media.giphy.com/media/CEYYQNKO2HDoc/giphy.gif')
 ## A disciplina
 ### Avaliação `r emo::ji("bomb")`
 
-### Avaliações pontuais $(AP)$
-- Serão realizadas duas avaliações pontuais assíncronas por área, pelo moodle.
+### Atividades Autônomas $(AA)$
+- Serão realizadas duas atividades autônomas por área, pelo moodle.
 - Valem __20%__ da nota final.
 
 ### Avaliações parciais ou Provas $(P)$ `r emo::ji("warning")`
@@ -234,12 +234,12 @@ knitr::include_graphics('https://media.giphy.com/media/CEYYQNKO2HDoc/giphy.gif')
 ### Avaliação `r emo::ji("mark")`
 
 $$
-MF = 0,8 \times (P1 + P2 + P3) / 3 + 0,2 \times (AP11 + AP12 + AP21 + AP22 + AP31 + AP32)/6
+MF = 0,8 \times (P1 + P2 + P3) / 3 + 0,2 \times (AA11 + AA12 + AA21 + AA22 + AA31 + AA32)/6
 $$
 
 + __A:__ $8,5 \leq MF \leq 10$
 + __B:__ $7 \leq MF < 8,5$
-+ __C:__ $6 \leq MF < 7,5$
++ __C:__ $6 \leq MF < 7$
 + __D:__ $MF < 6$
 + __FF:__ se o aluno tiver frequência inferior a 75% da carga horária prevista no plano da disciplina
 
@@ -263,21 +263,21 @@ $$
 ### Datas das avaliações `r emo::ji("calendar")`
 
 * ÁREA 1
-  + PONTUAL 11 - XX/XX a XX/XX
-  + PONTUAL 12 - XX/XX a XX/XX
-  + PARCIAL 1 - XX/XX
+  <!-- + PONTUAL 11 - XX/XX a XX/XX -->
+  <!-- + PONTUAL 12 - XX/XX a XX/XX -->
+  + P1 - 18/09
 
 * ÁREA 2
-  + PONTUAL 21 - XX/XX a XX/XX
-  + PONTUAL 22 - XX/XX a XX/XX
-  + PARCIAL 2 - XX/XX
+  <!-- + PONTUAL 21 - XX/XX a XX/XX -->
+  <!-- + PONTUAL 22 - XX/XX a XX/XX -->
+  + P2 - 30/10
 
 * ÁREA 3
-  + PONTUAL 31 - XX/XX a XX/XX
-  + PONTUAL 32 - XX/XX a XX/XX
-  + PARCIAL 3 - XX/XX
+  <!-- + PONTUAL 31 - XX/XX a XX/XX -->
+  <!-- + PONTUAL 32 - XX/XX a XX/XX -->
+  + P3 - 11/12
 
-* RECUPERAÇÃO - XX/XX
+* RECUPERAÇÃO - 18/12
 
 ---
 
@@ -328,9 +328,12 @@ class: inverse, middle, center
 	+ desenvolver analises e conclusoes rigorosamente seguindo a teoria
 	+ flexibilidade para trabalhar com dados na vida real
 
-<!-- --- -->
+---
 
-<!-- ## Próxima aula -->
+## Próxima aula
+
+* Ler slides da semana 1,
+  + trazer dúvidas.
 
 <!-- Revisão de conceitos básicos da teoria de: -->
 
