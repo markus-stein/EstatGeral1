@@ -16,7 +16,7 @@ always_allow_html: yes
 INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
 DEPARTAMENTO DE ESTATÍSTICA \\
 \vspace{0.3cm}
-MAT02214 - Estatística Geral 1 - 2024/1
+MAT02214 - Estatística Geral 1 - 2025/2
 }
 \renewcommand{\headrulewidth}{0pt} 
 
