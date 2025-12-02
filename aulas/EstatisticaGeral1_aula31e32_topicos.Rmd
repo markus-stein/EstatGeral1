@@ -16,7 +16,7 @@ always_allow_html: yes
 INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
 DEPARTAMENTO DE ESTATÍSTICA \\
 \vspace{0.3cm}
-MAT02214 - Estatística Geral 1 - 2024/1
+MAT02214 - Estatística Geral 1 - 2025/2
 }
 \renewcommand{\headrulewidth}{0pt} 
 
@@ -54,8 +54,7 @@ Usar o **formulário** para resolução das questões.
 
 ***
 ## Rever planos de aula, slides/vídeos e listas de exercícios da área 3.
-## Fazer o simulado para a prova 3 - VALE PONTO EXTRA!!!
-## Prova 3 no próximo sábado!!!
+## Prova 3 na próxima quinta, 11/12!!!
 ***  
 
 \vspace{1.0cm}
